@@ -2,9 +2,6 @@ module divider(
     input pulse_clock,
     input enable,
     input external_reset,
-    input target_data,
-    input target_clock,
-    input 
     output divided_clock
 );
 
@@ -19,7 +16,7 @@ wire combined_reset_signal;
 
 wire divider_toggle;
 
-counter16 divider_counter(.count_in(pulse_clock),
+counter32 divider_counter(.count_in(pulse_clock),
                           .count_enable(enable),
                           .count_reset(combined_reset_signal),
                           .count_target(compensated_target),
