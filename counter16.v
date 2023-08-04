@@ -1,14 +1,14 @@
 // 16-bit counter
 
-module counter32(
+module counter16(
     input count_in,
     input count_enable,
     input count_reset,
-    input[31:0] count_target,
+    input[15:0] count_target,
     output count_completed
 );
 // Internal Registers
-reg [31:0] internal_count = 0;
+reg [15:0] internal_count = 0;
 reg internal_count_reached = 0;
 // Count in signal logic
 always @(posedge count_in) begin
@@ -24,7 +24,7 @@ always @(posedge count_in) begin
     end
 
     if(count_reset == 1) begin
-        internal_count <= 32'd0;
+        internal_count <= 16'd0;
         internal_count_reached <= 0;
     end
 end

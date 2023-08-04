@@ -2,21 +2,24 @@ module divider(
     input pulse_clock,
     input enable,
     input external_reset,
+    input target_data,
+    input target_clock,
+    input 
     output divided_clock
 );
 
 reg divided_state = 0;
 reg internal_reset = 0;
-reg [31:0] divide_delay = 32'd1;
+reg [15:0] divide_delay = 16'd1;
 
-reg [31:0] divider_target = 32'd10;
-wire [31:0] compensated_target;
+reg [15:0] divider_target = 16'd10;
+wire [15:0] compensated_target;
 
 wire combined_reset_signal;
 
 wire divider_toggle;
 
-counter32 divider_counter(.count_in(pulse_clock),
+counter16 divider_counter(.count_in(pulse_clock),
                           .count_enable(enable),
                           .count_reset(combined_reset_signal),
                           .count_target(compensated_target),

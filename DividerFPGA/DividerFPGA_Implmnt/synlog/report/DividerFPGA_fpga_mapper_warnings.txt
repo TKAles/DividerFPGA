@@ -1,7 +1,0 @@
-@W: FX1039 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|User-specified initial value defined for instance divider_sr.shifted_data[15:0] is being ignored. 
-@W: FX1039 :"d:\icecube\dividerfpga\counter16.v":14:0:14:5|User-specified initial value defined for instance pulse_counter.internal_count_reached is being ignored. 
-@W: FX1039 :"d:\icecube\dividerfpga\counter16.v":14:0:14:5|User-specified initial value defined for instance pulse_counter.internal_count[15:0] is being ignored. 
-@W: FX1039 :"d:\icecube\dividerfpga\top.v":53:0:53:5|User-specified initial value defined for instance output_state is being ignored. 
-@W: FX1039 :"d:\icecube\dividerfpga\top.v":53:0:53:5|User-specified initial value defined for instance reset_signal is being ignored. 
-@W: MT420 |Found inferred clock top|laser_pulse with period 12.51ns. Please declare a user-defined clock on object "p:laser_pulse"
-@W: MT420 |Found inferred clock top|sr_clk with period 2.73ns. Please declare a user-defined clock on object "p:sr_clk"
