@@ -1,0 +1,43 @@
+D:/Icecube/DividerFPGA/tb_divider.v {1 {vlog -work work -stats=none D:/Icecube/DividerFPGA/tb_divider.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2020.3 Compiler 2020.10 Oct 14 2020
+-- Compiling module tb_divider
+
+Top level modules:
+	tb_divider
+
+} {} {}} D:/Icecube/DividerFPGA/testbench.v {1 {vlog -work work -stats=none D:/Icecube/DividerFPGA/testbench.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2020.3 Compiler 2020.10 Oct 14 2020
+-- Compiling module tb_top
+
+Top level modules:
+	tb_top
+
+} {} {}} D:/Icecube/DividerFPGA/sr32.v {1 {vlog -work work -stats=none D:/Icecube/DividerFPGA/sr32.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2020.3 Compiler 2020.10 Oct 14 2020
+-- Compiling module sr32
+
+Top level modules:
+	sr32
+
+} {} {}} D:/Icecube/DividerFPGA/tb_counter32.v {1 {vlog -work work -stats=none D:/Icecube/DividerFPGA/tb_counter32.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2020.3 Compiler 2020.10 Oct 14 2020
+-- Compiling module tb_counter32
+
+Top level modules:
+	tb_counter32
+
+} {} {}} D:/Icecube/DividerFPGA/top.v {1 {vlog -work work -stats=none D:/Icecube/DividerFPGA/top.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2020.3 Compiler 2020.10 Oct 14 2020
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} D:/Icecube/DividerFPGA/divider.v {1 {vlog -work work -stats=none D:/Icecube/DividerFPGA/divider.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2020.3 Compiler 2020.10 Oct 14 2020
+-- Compiling module divider
+
+Top level modules:
+	divider
+
+} {} {}}

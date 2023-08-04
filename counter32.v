@@ -1,4 +1,4 @@
-// 16-bit counter
+// 32-bit counter
 
 module counter32(
     input count_in,

@@ -1,0 +1,2591 @@
+9:50:57 AM
+"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "DividerFPGA_syn.prj" -log "DividerFPGA_Implmnt/DividerFPGA.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of DividerFPGA_Implmnt/DividerFPGA.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: TK-FRAMEWERK
+
+# Mon Jul 03 09:51:39 2023
+
+#Implementation: DividerFPGA_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v" (library work)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\Icecube\DividerFPGA\top.v" (library work)
+@I::"D:\Icecube\DividerFPGA\counter16.v" (library work)
+@I::"D:\Icecube\DividerFPGA\sr16.v" (library work)
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module top
+@N: CG364 :"D:\Icecube\DividerFPGA\sr16.v":3:7:3:10|Synthesizing module sr16 in library work.
+
+@N: CG364 :"D:\Icecube\DividerFPGA\counter16.v":3:7:3:15|Synthesizing module counter16 in library work.
+
+@N: CG364 :"D:\Icecube\DividerFPGA\top.v":1:7:1:9|Synthesizing module top in library work.
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jul 03 09:51:39 2023
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"D:\Icecube\DividerFPGA\top.v":1:7:1:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"D:\Icecube\DividerFPGA\top.v":1:7:1:9|Selected library: work cell: top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jul 03 09:51:40 2023
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jul 03 09:51:40 2023
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+File D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\synwork\DividerFPGA_comp.srs changed - recompiling
+@N: NF107 :"D:\Icecube\DividerFPGA\top.v":1:7:1:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"D:\Icecube\DividerFPGA\top.v":1:7:1:9|Selected library: work cell: top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jul 03 09:51:41 2023
+
+###########################################################]
+Pre-mapping Report
+
+# Mon Jul 03 09:51:42 2023
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\DividerFPGA_scck.rpt 
+Printing clock  summary report in "D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\DividerFPGA_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=20  set on top level netlist top
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+Clock Summary
+*****************
+
+Start               Requested     Requested     Clock        Clock                     Clock
+Clock               Frequency     Period        Type         Group                     Load 
+--------------------------------------------------------------------------------------------
+top|laser_pulse     277.9 MHz     3.598         inferred     Autoconstr_clkgroup_0     19   
+top|sr_clk          754.8 MHz     1.325         inferred     Autoconstr_clkgroup_1     16   
+============================================================================================
+
+@W: MT529 :"d:\icecube\dividerfpga\counter16.v":14:0:14:5|Found inferred clock top|laser_pulse which controls 19 sequential elements including pulse_counter.internal_count_reached. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Found inferred clock top|sr_clk which controls 16 sequential elements including divider_sr.shifted_data[15:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\DividerFPGA.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jul 03 09:51:42 2023
+
+###########################################################]
+Map & Optimize Report
+
+# Mon Jul 03 09:51:43 2023
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+@W: FX1039 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|User-specified initial value defined for instance divider_sr.shifted_data[15:0] is being ignored. 
+@W: FX1039 :"d:\icecube\dividerfpga\counter16.v":14:0:14:5|User-specified initial value defined for instance pulse_counter.internal_count_reached is being ignored. 
+@W: FX1039 :"d:\icecube\dividerfpga\counter16.v":14:0:14:5|User-specified initial value defined for instance pulse_counter.internal_count[15:0] is being ignored. 
+@W: FX1039 :"d:\icecube\dividerfpga\top.v":27:0:27:5|User-specified initial value defined for instance output_state is being ignored. 
+@W: FX1039 :"d:\icecube\dividerfpga\top.v":27:0:27:5|User-specified initial value defined for instance reset_signal is being ignored. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -2.76ns		  44 /        35
+   2		0h:00m:00s		    -2.76ns		  44 /        35
+   3		0h:00m:00s		    -1.40ns		  44 /        35
+@N: FX271 :"d:\icecube\dividerfpga\top.v":27:0:27:5|Replicating instance reset_signal (in view: work.top(verilog)) with 18 loads 1 time to improve timing.
+Timing driven replication report
+Added 1 Registers via timing driven replication
+Added 0 LUTs via timing driven replication
+
+   4		0h:00m:00s		    -1.40ns		  44 /        36
+
+
+   5		0h:00m:00s		    -1.36ns		  45 /        36
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[15] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[14] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[13] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[12] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[11] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[10] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[9] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[8] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[7] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[6] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[5] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[4] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[3] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[2] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[1] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[0] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: FX1016 :"d:\icecube\dividerfpga\top.v":2:10:2:20|SB_GB_IO inserted on the port laser_pulse.
+@N: FX1016 :"d:\icecube\dividerfpga\top.v":5:10:5:15|SB_GB_IO inserted on the port sr_clk.
+@N: FX1017 :"d:\icecube\dividerfpga\top.v":27:0:27:5|SB_GB inserted on the net reset_signal_iso.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+2 non-gated/non-generated clock tree(s) driving 36 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+======================================= Non-Gated/Non-Generated Clocks =======================================
+Clock Tree ID     Driving Element            Drive Element Type     Fanout     Sample Instance                
+--------------------------------------------------------------------------------------------------------------
+@K:CKID0001       laser_pulse_ibuf_gb_io     SB_GB_IO               20         reset_signal_iso               
+@K:CKID0002       sr_clk_ibuf_gb_io          SB_GB_IO               16         divider_sr.shifted_data_esr[15]
+==============================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 133MB)
+
+Writing Analyst data base D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\synwork\DividerFPGA_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\DividerFPGA.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+@W: MT420 |Found inferred clock top|laser_pulse with period 12.51ns. Please declare a user-defined clock on object "p:laser_pulse"
+@W: MT420 |Found inferred clock top|sr_clk with period 2.73ns. Please declare a user-defined clock on object "p:sr_clk"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Jul 03 09:51:44 2023
+#
+
+
+Top view:               top
+Requested Frequency:    80.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -2.207
+
+                    Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock      Frequency     Frequency     Period        Period        Slack      Type         Group                
+-------------------------------------------------------------------------------------------------------------------------
+top|laser_pulse     80.0 MHz      68.0 MHz      12.507        14.714        -2.207     inferred     Autoconstr_clkgroup_0
+top|sr_clk          366.1 MHz     311.2 MHz     2.731         3.213         -0.482     inferred     Autoconstr_clkgroup_1
+=========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------
+Starting         Ending           |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------
+top|laser_pulse  top|laser_pulse  |  12.507      -2.207  |  No paths    -      |  No paths    -      |  No paths    -    
+top|sr_clk       top|laser_pulse  |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+top|sr_clk       top|sr_clk       |  2.731       -0.482  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: top|laser_pulse
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                    Starting                                                       Arrival           
+Instance                            Reference           Type         Pin     Net                   Time        Slack 
+                                    Clock                                                                            
+---------------------------------------------------------------------------------------------------------------------
+pulse_counter.internal_count[0]     top|laser_pulse     SB_DFFSR     Q       internal_count[0]     0.540       -2.207
+pulse_counter.internal_count[1]     top|laser_pulse     SB_DFFSR     Q       internal_count[1]     0.540       -2.114
+pulse_counter.internal_count[2]     top|laser_pulse     SB_DFFSR     Q       internal_count[2]     0.540       -0.446
+pulse_counter.internal_count[3]     top|laser_pulse     SB_DFFSR     Q       internal_count[3]     0.540       -0.306
+pulse_counter.internal_count[4]     top|laser_pulse     SB_DFFSR     Q       internal_count[4]     0.540       -0.166
+pulse_counter.internal_count[5]     top|laser_pulse     SB_DFFSR     Q       internal_count[5]     0.540       -0.026
+pulse_counter.internal_count[6]     top|laser_pulse     SB_DFFSR     Q       internal_count[6]     0.540       0.114 
+pulse_counter.internal_count[7]     top|laser_pulse     SB_DFFSR     Q       internal_count[7]     0.540       0.255 
+pulse_counter.internal_count[8]     top|laser_pulse     SB_DFFSR     Q       internal_count[8]     0.540       0.395 
+pulse_counter.internal_count[9]     top|laser_pulse     SB_DFFSR     Q       internal_count[9]     0.540       0.535 
+=====================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                         Starting                                                               Required           
+Instance                                 Reference           Type         Pin     Net                           Time         Slack 
+                                         Clock                                                                                     
+-----------------------------------------------------------------------------------------------------------------------------------
+pulse_counter.internal_count_reached     top|laser_pulse     SB_DFFSR     D       internal_count_reached_en     12.402       -2.207
+pulse_counter.internal_count[15]         top|laser_pulse     SB_DFFSR     D       internal_count_RNO[15]        12.402       4.612 
+pulse_counter.internal_count[14]         top|laser_pulse     SB_DFFSR     D       internal_count_RNO[14]        12.402       4.752 
+pulse_counter.internal_count[13]         top|laser_pulse     SB_DFFSR     D       internal_count_RNO[13]        12.402       4.892 
+pulse_counter.internal_count[12]         top|laser_pulse     SB_DFFSR     D       internal_count_RNO[12]        12.402       5.032 
+pulse_counter.internal_count[11]         top|laser_pulse     SB_DFFSR     D       internal_count_RNO[11]        12.402       5.172 
+pulse_counter.internal_count[10]         top|laser_pulse     SB_DFFSR     D       internal_count_RNO[10]        12.402       5.313 
+pulse_counter.internal_count[9]          top|laser_pulse     SB_DFFSR     D       internal_count_RNO[9]         12.402       5.453 
+pulse_counter.internal_count[8]          top|laser_pulse     SB_DFFSR     D       internal_count_RNO[8]         12.402       5.593 
+pulse_counter.internal_count[7]          top|laser_pulse     SB_DFFSR     D       internal_count_RNO[7]         12.402       5.733 
+===================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      12.507
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         12.402
+
+    - Propagation time:                      14.609
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.207
+
+    Number of logic level(s):                8
+    Starting point:                          pulse_counter.internal_count[0] / Q
+    Ending point:                            pulse_counter.internal_count_reached / D
+    The start point is clocked by            top|laser_pulse [rising] on pin C
+    The end   point is clocked by            top|laser_pulse [rising] on pin C
+
+Instance / Net                                                           Pin      Pin               Arrival     No. of    
+Name                                                        Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------
+pulse_counter.internal_count[0]                             SB_DFFSR     Q        Out     0.540     0.540       -         
+internal_count[0]                                           Net          -        -       1.599     -           4         
+pulse_counter.internal_count_reached4_a_4_cry_0_0_c_inv     SB_LUT4      I0       In      -         2.139       -         
+pulse_counter.internal_count_reached4_a_4_cry_0_0_c_inv     SB_LUT4      O        Out     0.449     2.588       -         
+internal_count_i[0]                                         Net          -        -       0.905     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_0_0_c         SB_CARRY     I0       In      -         3.493       -         
+pulse_counter.internal_count_reached4_a_4_cry_0_0_c         SB_CARRY     CO       Out     0.258     3.750       -         
+internal_count_reached4_a_4_cry_0                           Net          -        -       0.386     -           2         
+pulse_counter.internal_count_reached_RNO_20                 SB_LUT4      I3       In      -         4.136       -         
+pulse_counter.internal_count_reached_RNO_20                 SB_LUT4      O        Out     0.316     4.452       -         
+internal_count_reached4_1                                   Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_19                 SB_LUT4      I3       In      -         5.823       -         
+pulse_counter.internal_count_reached_RNO_19                 SB_LUT4      O        Out     0.316     6.138       -         
+internal_count_reached_RNO_19                               Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_18                 SB_LUT4      I0       In      -         7.510       -         
+pulse_counter.internal_count_reached_RNO_18                 SB_LUT4      O        Out     0.449     7.958       -         
+internal_count_reached4_NE_3                                Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_4                  SB_LUT4      I3       In      -         9.329       -         
+pulse_counter.internal_count_reached_RNO_4                  SB_LUT4      O        Out     0.316     9.645       -         
+internal_count_reached4_NE_12                               Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_0                  SB_LUT4      I3       In      -         11.016      -         
+pulse_counter.internal_count_reached_RNO_0                  SB_LUT4      O        Out     0.316     11.332      -         
+internal_count_reached4                                     Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO                    SB_LUT4      I1       In      -         12.703      -         
+pulse_counter.internal_count_reached_RNO                    SB_LUT4      O        Out     0.400     13.102      -         
+internal_count_reached_en                                   Net          -        -       1.507     -           1         
+pulse_counter.internal_count_reached                        SB_DFFSR     D        In      -         14.609      -         
+==========================================================================================================================
+Total path delay (propagation time + setup) of 14.714 is 3.462(23.5%) logic and 11.252(76.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      12.507
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         12.402
+
+    - Propagation time:                      14.516
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.114
+
+    Number of logic level(s):                7
+    Starting point:                          pulse_counter.internal_count[1] / Q
+    Ending point:                            pulse_counter.internal_count_reached / D
+    The start point is clocked by            top|laser_pulse [rising] on pin C
+    The end   point is clocked by            top|laser_pulse [rising] on pin C
+
+Instance / Net                                               Pin      Pin               Arrival     No. of    
+Name                                            Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------
+pulse_counter.internal_count[1]                 SB_DFFSR     Q        Out     0.540     0.540       -         
+internal_count[1]                               Net          -        -       1.599     -           3         
+pulse_counter.internal_count_sbtinv[1]          SB_LUT4      I0       In      -         2.139       -         
+pulse_counter.internal_count_sbtinv[1]          SB_LUT4      O        Out     0.449     2.588       -         
+internal_count_i[1]                             Net          -        -       1.371     -           2         
+pulse_counter.internal_count_reached_RNO_20     SB_LUT4      I1       In      -         3.959       -         
+pulse_counter.internal_count_reached_RNO_20     SB_LUT4      O        Out     0.400     4.359       -         
+internal_count_reached4_1                       Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_19     SB_LUT4      I3       In      -         5.729       -         
+pulse_counter.internal_count_reached_RNO_19     SB_LUT4      O        Out     0.316     6.045       -         
+internal_count_reached_RNO_19                   Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_18     SB_LUT4      I0       In      -         7.416       -         
+pulse_counter.internal_count_reached_RNO_18     SB_LUT4      O        Out     0.449     7.865       -         
+internal_count_reached4_NE_3                    Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_4      SB_LUT4      I3       In      -         9.236       -         
+pulse_counter.internal_count_reached_RNO_4      SB_LUT4      O        Out     0.316     9.552       -         
+internal_count_reached4_NE_12                   Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_0      SB_LUT4      I3       In      -         10.922      -         
+pulse_counter.internal_count_reached_RNO_0      SB_LUT4      O        Out     0.316     11.238      -         
+internal_count_reached4                         Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO        SB_LUT4      I1       In      -         12.609      -         
+pulse_counter.internal_count_reached_RNO        SB_LUT4      O        Out     0.400     13.009      -         
+internal_count_reached_en                       Net          -        -       1.507     -           1         
+pulse_counter.internal_count_reached            SB_DFFSR     D        In      -         14.516      -         
+==============================================================================================================
+Total path delay (propagation time + setup) of 14.621 is 3.289(22.5%) logic and 11.332(77.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      12.507
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         12.402
+
+    - Propagation time:                      13.129
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.727
+
+    Number of logic level(s):                20
+    Starting point:                          pulse_counter.internal_count[0] / Q
+    Ending point:                            pulse_counter.internal_count_reached / D
+    The start point is clocked by            top|laser_pulse [rising] on pin C
+    The end   point is clocked by            top|laser_pulse [rising] on pin C
+
+Instance / Net                                                           Pin      Pin               Arrival     No. of    
+Name                                                        Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------
+pulse_counter.internal_count[0]                             SB_DFFSR     Q        Out     0.540     0.540       -         
+internal_count[0]                                           Net          -        -       1.599     -           4         
+pulse_counter.internal_count_reached4_a_4_cry_0_0_c_inv     SB_LUT4      I0       In      -         2.139       -         
+pulse_counter.internal_count_reached4_a_4_cry_0_0_c_inv     SB_LUT4      O        Out     0.449     2.588       -         
+internal_count_i[0]                                         Net          -        -       0.905     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_0_0_c         SB_CARRY     I0       In      -         3.493       -         
+pulse_counter.internal_count_reached4_a_4_cry_0_0_c         SB_CARRY     CO       Out     0.258     3.750       -         
+internal_count_reached4_a_4_cry_0                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_1_0_c         SB_CARRY     CI       In      -         3.764       -         
+pulse_counter.internal_count_reached4_a_4_cry_1_0_c         SB_CARRY     CO       Out     0.126     3.890       -         
+internal_count_reached4_a_4_cry_1                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_2_0_c         SB_CARRY     CI       In      -         3.905       -         
+pulse_counter.internal_count_reached4_a_4_cry_2_0_c         SB_CARRY     CO       Out     0.126     4.031       -         
+internal_count_reached4_a_4_cry_2                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_3_0_c         SB_CARRY     CI       In      -         4.045       -         
+pulse_counter.internal_count_reached4_a_4_cry_3_0_c         SB_CARRY     CO       Out     0.126     4.171       -         
+internal_count_reached4_a_4_cry_3                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_4_0_c         SB_CARRY     CI       In      -         4.185       -         
+pulse_counter.internal_count_reached4_a_4_cry_4_0_c         SB_CARRY     CO       Out     0.126     4.311       -         
+internal_count_reached4_a_4_cry_4                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_5_0_c         SB_CARRY     CI       In      -         4.325       -         
+pulse_counter.internal_count_reached4_a_4_cry_5_0_c         SB_CARRY     CO       Out     0.126     4.451       -         
+internal_count_reached4_a_4_cry_5                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_6_0_c         SB_CARRY     CI       In      -         4.465       -         
+pulse_counter.internal_count_reached4_a_4_cry_6_0_c         SB_CARRY     CO       Out     0.126     4.591       -         
+internal_count_reached4_a_4_cry_6                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_7_0_c         SB_CARRY     CI       In      -         4.606       -         
+pulse_counter.internal_count_reached4_a_4_cry_7_0_c         SB_CARRY     CO       Out     0.126     4.732       -         
+internal_count_reached4_a_4_cry_7                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_8_0_c         SB_CARRY     CI       In      -         4.746       -         
+pulse_counter.internal_count_reached4_a_4_cry_8_0_c         SB_CARRY     CO       Out     0.126     4.872       -         
+internal_count_reached4_a_4_cry_8                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_9_0_c         SB_CARRY     CI       In      -         4.886       -         
+pulse_counter.internal_count_reached4_a_4_cry_9_0_c         SB_CARRY     CO       Out     0.126     5.012       -         
+internal_count_reached4_a_4_cry_9                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_10_0_c        SB_CARRY     CI       In      -         5.026       -         
+pulse_counter.internal_count_reached4_a_4_cry_10_0_c        SB_CARRY     CO       Out     0.126     5.152       -         
+internal_count_reached4_a_4_cry_10                          Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_11_0_c        SB_CARRY     CI       In      -         5.166       -         
+pulse_counter.internal_count_reached4_a_4_cry_11_0_c        SB_CARRY     CO       Out     0.126     5.293       -         
+internal_count_reached4_a_4_cry_11                          Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_12_0_c        SB_CARRY     CI       In      -         5.306       -         
+pulse_counter.internal_count_reached4_a_4_cry_12_0_c        SB_CARRY     CO       Out     0.126     5.433       -         
+internal_count_reached4_a_4_cry_12                          Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_13_0_c        SB_CARRY     CI       In      -         5.447       -         
+pulse_counter.internal_count_reached4_a_4_cry_13_0_c        SB_CARRY     CO       Out     0.126     5.573       -         
+internal_count_reached4_a_4_cry_13                          Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_14_0_c        SB_CARRY     CI       In      -         5.587       -         
+pulse_counter.internal_count_reached4_a_4_cry_14_0_c        SB_CARRY     CO       Out     0.126     5.713       -         
+internal_count_reached4_a_4_cry_14                          Net          -        -       0.386     -           2         
+pulse_counter.internal_count_reached_RNO_14                 SB_LUT4      I3       In      -         6.099       -         
+pulse_counter.internal_count_reached_RNO_14                 SB_LUT4      O        Out     0.316     6.415       -         
+internal_count_reached4_15                                  Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_3                  SB_LUT4      I3       In      -         7.786       -         
+pulse_counter.internal_count_reached_RNO_3                  SB_LUT4      O        Out     0.316     8.101       -         
+internal_count_reached4_NE_10                               Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_0                  SB_LUT4      I2       In      -         9.472       -         
+pulse_counter.internal_count_reached_RNO_0                  SB_LUT4      O        Out     0.379     9.851       -         
+internal_count_reached4                                     Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO                    SB_LUT4      I1       In      -         11.222      -         
+pulse_counter.internal_count_reached_RNO                    SB_LUT4      O        Out     0.400     11.622      -         
+internal_count_reached_en                                   Net          -        -       1.507     -           1         
+pulse_counter.internal_count_reached                        SB_DFFSR     D        In      -         13.129      -         
+==========================================================================================================================
+Total path delay (propagation time + setup) of 13.234 is 4.528(34.2%) logic and 8.706(65.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      12.507
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         12.402
+
+    - Propagation time:                      13.122
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.720
+
+    Number of logic level(s):                19
+    Starting point:                          pulse_counter.internal_count[0] / Q
+    Ending point:                            pulse_counter.internal_count_reached / D
+    The start point is clocked by            top|laser_pulse [rising] on pin C
+    The end   point is clocked by            top|laser_pulse [rising] on pin C
+
+Instance / Net                                                           Pin      Pin               Arrival     No. of    
+Name                                                        Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------
+pulse_counter.internal_count[0]                             SB_DFFSR     Q        Out     0.540     0.540       -         
+internal_count[0]                                           Net          -        -       1.599     -           4         
+pulse_counter.internal_count_reached4_a_4_cry_0_0_c_inv     SB_LUT4      I0       In      -         2.139       -         
+pulse_counter.internal_count_reached4_a_4_cry_0_0_c_inv     SB_LUT4      O        Out     0.449     2.588       -         
+internal_count_i[0]                                         Net          -        -       0.905     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_0_0_c         SB_CARRY     I0       In      -         3.493       -         
+pulse_counter.internal_count_reached4_a_4_cry_0_0_c         SB_CARRY     CO       Out     0.258     3.750       -         
+internal_count_reached4_a_4_cry_0                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_1_0_c         SB_CARRY     CI       In      -         3.764       -         
+pulse_counter.internal_count_reached4_a_4_cry_1_0_c         SB_CARRY     CO       Out     0.126     3.890       -         
+internal_count_reached4_a_4_cry_1                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_2_0_c         SB_CARRY     CI       In      -         3.905       -         
+pulse_counter.internal_count_reached4_a_4_cry_2_0_c         SB_CARRY     CO       Out     0.126     4.031       -         
+internal_count_reached4_a_4_cry_2                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_3_0_c         SB_CARRY     CI       In      -         4.045       -         
+pulse_counter.internal_count_reached4_a_4_cry_3_0_c         SB_CARRY     CO       Out     0.126     4.171       -         
+internal_count_reached4_a_4_cry_3                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_4_0_c         SB_CARRY     CI       In      -         4.185       -         
+pulse_counter.internal_count_reached4_a_4_cry_4_0_c         SB_CARRY     CO       Out     0.126     4.311       -         
+internal_count_reached4_a_4_cry_4                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_5_0_c         SB_CARRY     CI       In      -         4.325       -         
+pulse_counter.internal_count_reached4_a_4_cry_5_0_c         SB_CARRY     CO       Out     0.126     4.451       -         
+internal_count_reached4_a_4_cry_5                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_6_0_c         SB_CARRY     CI       In      -         4.465       -         
+pulse_counter.internal_count_reached4_a_4_cry_6_0_c         SB_CARRY     CO       Out     0.126     4.591       -         
+internal_count_reached4_a_4_cry_6                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_7_0_c         SB_CARRY     CI       In      -         4.606       -         
+pulse_counter.internal_count_reached4_a_4_cry_7_0_c         SB_CARRY     CO       Out     0.126     4.732       -         
+internal_count_reached4_a_4_cry_7                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_8_0_c         SB_CARRY     CI       In      -         4.746       -         
+pulse_counter.internal_count_reached4_a_4_cry_8_0_c         SB_CARRY     CO       Out     0.126     4.872       -         
+internal_count_reached4_a_4_cry_8                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_9_0_c         SB_CARRY     CI       In      -         4.886       -         
+pulse_counter.internal_count_reached4_a_4_cry_9_0_c         SB_CARRY     CO       Out     0.126     5.012       -         
+internal_count_reached4_a_4_cry_9                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_10_0_c        SB_CARRY     CI       In      -         5.026       -         
+pulse_counter.internal_count_reached4_a_4_cry_10_0_c        SB_CARRY     CO       Out     0.126     5.152       -         
+internal_count_reached4_a_4_cry_10                          Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_11_0_c        SB_CARRY     CI       In      -         5.166       -         
+pulse_counter.internal_count_reached4_a_4_cry_11_0_c        SB_CARRY     CO       Out     0.126     5.293       -         
+internal_count_reached4_a_4_cry_11                          Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_12_0_c        SB_CARRY     CI       In      -         5.306       -         
+pulse_counter.internal_count_reached4_a_4_cry_12_0_c        SB_CARRY     CO       Out     0.126     5.433       -         
+internal_count_reached4_a_4_cry_12                          Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_13_0_c        SB_CARRY     CI       In      -         5.447       -         
+pulse_counter.internal_count_reached4_a_4_cry_13_0_c        SB_CARRY     CO       Out     0.126     5.573       -         
+internal_count_reached4_a_4_cry_13                          Net          -        -       0.386     -           2         
+pulse_counter.internal_count_reached_RNO_7                  SB_LUT4      I3       In      -         5.959       -         
+pulse_counter.internal_count_reached_RNO_7                  SB_LUT4      O        Out     0.316     6.274       -         
+internal_count_reached4_14                                  Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_1                  SB_LUT4      I2       In      -         7.646       -         
+pulse_counter.internal_count_reached_RNO_1                  SB_LUT4      O        Out     0.379     8.024       -         
+internal_count_reached4_NE_1                                Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_0                  SB_LUT4      I0       In      -         9.395       -         
+pulse_counter.internal_count_reached_RNO_0                  SB_LUT4      O        Out     0.449     9.844       -         
+internal_count_reached4                                     Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO                    SB_LUT4      I1       In      -         11.215      -         
+pulse_counter.internal_count_reached_RNO                    SB_LUT4      O        Out     0.400     11.615      -         
+internal_count_reached_en                                   Net          -        -       1.507     -           1         
+pulse_counter.internal_count_reached                        SB_DFFSR     D        In      -         13.122      -         
+==========================================================================================================================
+Total path delay (propagation time + setup) of 13.227 is 4.535(34.3%) logic and 8.692(65.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      12.507
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         12.402
+
+    - Propagation time:                      12.989
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.587
+
+    Number of logic level(s):                19
+    Starting point:                          pulse_counter.internal_count[1] / Q
+    Ending point:                            pulse_counter.internal_count_reached / D
+    The start point is clocked by            top|laser_pulse [rising] on pin C
+    The end   point is clocked by            top|laser_pulse [rising] on pin C
+
+Instance / Net                                                        Pin      Pin               Arrival     No. of    
+Name                                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------
+pulse_counter.internal_count[1]                          SB_DFFSR     Q        Out     0.540     0.540       -         
+internal_count[1]                                        Net          -        -       1.599     -           3         
+pulse_counter.internal_count_sbtinv[1]                   SB_LUT4      I0       In      -         2.139       -         
+pulse_counter.internal_count_sbtinv[1]                   SB_LUT4      O        Out     0.449     2.588       -         
+internal_count_i[1]                                      Net          -        -       0.905     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_1_0_c      SB_CARRY     I0       In      -         3.493       -         
+pulse_counter.internal_count_reached4_a_4_cry_1_0_c      SB_CARRY     CO       Out     0.258     3.750       -         
+internal_count_reached4_a_4_cry_1                        Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_2_0_c      SB_CARRY     CI       In      -         3.764       -         
+pulse_counter.internal_count_reached4_a_4_cry_2_0_c      SB_CARRY     CO       Out     0.126     3.890       -         
+internal_count_reached4_a_4_cry_2                        Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_3_0_c      SB_CARRY     CI       In      -         3.905       -         
+pulse_counter.internal_count_reached4_a_4_cry_3_0_c      SB_CARRY     CO       Out     0.126     4.031       -         
+internal_count_reached4_a_4_cry_3                        Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_4_0_c      SB_CARRY     CI       In      -         4.045       -         
+pulse_counter.internal_count_reached4_a_4_cry_4_0_c      SB_CARRY     CO       Out     0.126     4.171       -         
+internal_count_reached4_a_4_cry_4                        Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_5_0_c      SB_CARRY     CI       In      -         4.185       -         
+pulse_counter.internal_count_reached4_a_4_cry_5_0_c      SB_CARRY     CO       Out     0.126     4.311       -         
+internal_count_reached4_a_4_cry_5                        Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_6_0_c      SB_CARRY     CI       In      -         4.325       -         
+pulse_counter.internal_count_reached4_a_4_cry_6_0_c      SB_CARRY     CO       Out     0.126     4.451       -         
+internal_count_reached4_a_4_cry_6                        Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_7_0_c      SB_CARRY     CI       In      -         4.465       -         
+pulse_counter.internal_count_reached4_a_4_cry_7_0_c      SB_CARRY     CO       Out     0.126     4.591       -         
+internal_count_reached4_a_4_cry_7                        Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_8_0_c      SB_CARRY     CI       In      -         4.606       -         
+pulse_counter.internal_count_reached4_a_4_cry_8_0_c      SB_CARRY     CO       Out     0.126     4.732       -         
+internal_count_reached4_a_4_cry_8                        Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_9_0_c      SB_CARRY     CI       In      -         4.746       -         
+pulse_counter.internal_count_reached4_a_4_cry_9_0_c      SB_CARRY     CO       Out     0.126     4.872       -         
+internal_count_reached4_a_4_cry_9                        Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_10_0_c     SB_CARRY     CI       In      -         4.886       -         
+pulse_counter.internal_count_reached4_a_4_cry_10_0_c     SB_CARRY     CO       Out     0.126     5.012       -         
+internal_count_reached4_a_4_cry_10                       Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_11_0_c     SB_CARRY     CI       In      -         5.026       -         
+pulse_counter.internal_count_reached4_a_4_cry_11_0_c     SB_CARRY     CO       Out     0.126     5.152       -         
+internal_count_reached4_a_4_cry_11                       Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_12_0_c     SB_CARRY     CI       In      -         5.166       -         
+pulse_counter.internal_count_reached4_a_4_cry_12_0_c     SB_CARRY     CO       Out     0.126     5.293       -         
+internal_count_reached4_a_4_cry_12                       Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_13_0_c     SB_CARRY     CI       In      -         5.306       -         
+pulse_counter.internal_count_reached4_a_4_cry_13_0_c     SB_CARRY     CO       Out     0.126     5.433       -         
+internal_count_reached4_a_4_cry_13                       Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_14_0_c     SB_CARRY     CI       In      -         5.447       -         
+pulse_counter.internal_count_reached4_a_4_cry_14_0_c     SB_CARRY     CO       Out     0.126     5.573       -         
+internal_count_reached4_a_4_cry_14                       Net          -        -       0.386     -           2         
+pulse_counter.internal_count_reached_RNO_14              SB_LUT4      I3       In      -         5.959       -         
+pulse_counter.internal_count_reached_RNO_14              SB_LUT4      O        Out     0.316     6.274       -         
+internal_count_reached4_15                               Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_3               SB_LUT4      I3       In      -         7.646       -         
+pulse_counter.internal_count_reached_RNO_3               SB_LUT4      O        Out     0.316     7.961       -         
+internal_count_reached4_NE_10                            Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_0               SB_LUT4      I2       In      -         9.332       -         
+pulse_counter.internal_count_reached_RNO_0               SB_LUT4      O        Out     0.379     9.711       -         
+internal_count_reached4                                  Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO                 SB_LUT4      I1       In      -         11.082      -         
+pulse_counter.internal_count_reached_RNO                 SB_LUT4      O        Out     0.400     11.482      -         
+internal_count_reached_en                                Net          -        -       1.507     -           1         
+pulse_counter.internal_count_reached                     SB_DFFSR     D        In      -         12.989      -         
+=======================================================================================================================
+Total path delay (propagation time + setup) of 13.094 is 4.402(33.6%) logic and 8.692(66.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: top|sr_clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                   Starting                                                 Arrival           
+Instance                           Reference      Type          Pin     Net                 Time        Slack 
+                                   Clock                                                                      
+--------------------------------------------------------------------------------------------------------------
+divider_sr.shifted_data_esr[0]     top|sr_clk     SB_DFFESR     Q       shifted_data[0]     0.540       -0.482
+divider_sr.shifted_data_esr[1]     top|sr_clk     SB_DFFESR     Q       shifted_data[1]     0.540       -0.482
+divider_sr.shifted_data_esr[2]     top|sr_clk     SB_DFFESR     Q       shifted_data[2]     0.540       -0.482
+divider_sr.shifted_data_esr[3]     top|sr_clk     SB_DFFESR     Q       shifted_data[3]     0.540       -0.482
+divider_sr.shifted_data_esr[4]     top|sr_clk     SB_DFFESR     Q       shifted_data[4]     0.540       -0.482
+divider_sr.shifted_data_esr[5]     top|sr_clk     SB_DFFESR     Q       shifted_data[5]     0.540       -0.482
+divider_sr.shifted_data_esr[6]     top|sr_clk     SB_DFFESR     Q       shifted_data[6]     0.540       -0.482
+divider_sr.shifted_data_esr[7]     top|sr_clk     SB_DFFESR     Q       shifted_data[7]     0.540       -0.482
+divider_sr.shifted_data_esr[8]     top|sr_clk     SB_DFFESR     Q       shifted_data[8]     0.540       -0.482
+divider_sr.shifted_data_esr[9]     top|sr_clk     SB_DFFESR     Q       shifted_data[9]     0.540       -0.482
+==============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                    Starting                                                 Required           
+Instance                            Reference      Type          Pin     Net                 Time         Slack 
+                                    Clock                                                                       
+----------------------------------------------------------------------------------------------------------------
+divider_sr.shifted_data_esr[1]      top|sr_clk     SB_DFFESR     D       shifted_data[0]     2.626        -0.482
+divider_sr.shifted_data_esr[2]      top|sr_clk     SB_DFFESR     D       shifted_data[1]     2.626        -0.482
+divider_sr.shifted_data_esr[3]      top|sr_clk     SB_DFFESR     D       shifted_data[2]     2.626        -0.482
+divider_sr.shifted_data_esr[4]      top|sr_clk     SB_DFFESR     D       shifted_data[3]     2.626        -0.482
+divider_sr.shifted_data_esr[5]      top|sr_clk     SB_DFFESR     D       shifted_data[4]     2.626        -0.482
+divider_sr.shifted_data_esr[6]      top|sr_clk     SB_DFFESR     D       shifted_data[5]     2.626        -0.482
+divider_sr.shifted_data_esr[7]      top|sr_clk     SB_DFFESR     D       shifted_data[6]     2.626        -0.482
+divider_sr.shifted_data_esr[8]      top|sr_clk     SB_DFFESR     D       shifted_data[7]     2.626        -0.482
+divider_sr.shifted_data_esr[9]      top|sr_clk     SB_DFFESR     D       shifted_data[8]     2.626        -0.482
+divider_sr.shifted_data_esr[10]     top|sr_clk     SB_DFFESR     D       shifted_data[9]     2.626        -0.482
+================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      2.731
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.626
+
+    - Propagation time:                      3.108
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.482
+
+    Number of logic level(s):                0
+    Starting point:                          divider_sr.shifted_data_esr[0] / Q
+    Ending point:                            divider_sr.shifted_data_esr[1] / D
+    The start point is clocked by            top|sr_clk [rising] on pin C
+    The end   point is clocked by            top|sr_clk [rising] on pin C
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                               Type          Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+divider_sr.shifted_data_esr[0]     SB_DFFESR     Q        Out     0.540     0.540       -         
+shifted_data[0]                    Net           -        -       2.568     -           3         
+divider_sr.shifted_data_esr[1]     SB_DFFESR     D        In      -         3.108       -         
+==================================================================================================
+Total path delay (propagation time + setup) of 3.213 is 0.645(20.1%) logic and 2.568(79.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      2.731
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.626
+
+    - Propagation time:                      3.108
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.482
+
+    Number of logic level(s):                0
+    Starting point:                          divider_sr.shifted_data_esr[1] / Q
+    Ending point:                            divider_sr.shifted_data_esr[2] / D
+    The start point is clocked by            top|sr_clk [rising] on pin C
+    The end   point is clocked by            top|sr_clk [rising] on pin C
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                               Type          Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+divider_sr.shifted_data_esr[1]     SB_DFFESR     Q        Out     0.540     0.540       -         
+shifted_data[1]                    Net           -        -       2.568     -           2         
+divider_sr.shifted_data_esr[2]     SB_DFFESR     D        In      -         3.108       -         
+==================================================================================================
+Total path delay (propagation time + setup) of 3.213 is 0.645(20.1%) logic and 2.568(79.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      2.731
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.626
+
+    - Propagation time:                      3.108
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.482
+
+    Number of logic level(s):                0
+    Starting point:                          divider_sr.shifted_data_esr[2] / Q
+    Ending point:                            divider_sr.shifted_data_esr[3] / D
+    The start point is clocked by            top|sr_clk [rising] on pin C
+    The end   point is clocked by            top|sr_clk [rising] on pin C
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                               Type          Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+divider_sr.shifted_data_esr[2]     SB_DFFESR     Q        Out     0.540     0.540       -         
+shifted_data[2]                    Net           -        -       2.568     -           2         
+divider_sr.shifted_data_esr[3]     SB_DFFESR     D        In      -         3.108       -         
+==================================================================================================
+Total path delay (propagation time + setup) of 3.213 is 0.645(20.1%) logic and 2.568(79.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      2.731
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.626
+
+    - Propagation time:                      3.108
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.482
+
+    Number of logic level(s):                0
+    Starting point:                          divider_sr.shifted_data_esr[3] / Q
+    Ending point:                            divider_sr.shifted_data_esr[4] / D
+    The start point is clocked by            top|sr_clk [rising] on pin C
+    The end   point is clocked by            top|sr_clk [rising] on pin C
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                               Type          Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+divider_sr.shifted_data_esr[3]     SB_DFFESR     Q        Out     0.540     0.540       -         
+shifted_data[3]                    Net           -        -       2.568     -           2         
+divider_sr.shifted_data_esr[4]     SB_DFFESR     D        In      -         3.108       -         
+==================================================================================================
+Total path delay (propagation time + setup) of 3.213 is 0.645(20.1%) logic and 2.568(79.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      2.731
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.626
+
+    - Propagation time:                      3.108
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.482
+
+    Number of logic level(s):                0
+    Starting point:                          divider_sr.shifted_data_esr[4] / Q
+    Ending point:                            divider_sr.shifted_data_esr[5] / D
+    The start point is clocked by            top|sr_clk [rising] on pin C
+    The end   point is clocked by            top|sr_clk [rising] on pin C
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                               Type          Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+divider_sr.shifted_data_esr[4]     SB_DFFESR     Q        Out     0.540     0.540       -         
+shifted_data[4]                    Net           -        -       2.568     -           2         
+divider_sr.shifted_data_esr[5]     SB_DFFESR     D        In      -         3.108       -         
+==================================================================================================
+Total path delay (propagation time + setup) of 3.213 is 0.645(20.1%) logic and 2.568(79.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+---------------------------------------
+Resource Usage Report for top 
+
+Mapping to part: ice40hx4kcb132
+Cell usage:
+GND             2 uses
+SB_CARRY        31 uses
+SB_DFF          3 uses
+SB_DFFESR       16 uses
+SB_DFFSR        17 uses
+SB_GB           1 use
+VCC             2 uses
+SB_LUT4         76 uses
+
+I/O ports: 8
+I/O primitives: 8
+SB_GB_IO       2 uses
+SB_IO          6 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   36 (1%)
+Total load per clock:
+   top|laser_pulse: 1
+   top|sr_clk: 1
+
+@S |Mapping Summary:
+Total  LUTs: 76 (2%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 76 = 76 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 27MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jul 03 09:51:44 2023
+
+###########################################################]
+
+
+Synthesis exit by 0.
+Current Implementation DividerFPGA_Implmnt its sbt path: D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt
+DividerFPGA_Implmnt: newer file D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt/DividerFPGA.edf detected. Need to run "Import P&R Input Files"
+Synthesis succeed.
+Synthesis succeeded.
+Synthesis runtime 8 seconds
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\edifparser.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P04.dev" "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt/DividerFPGA.edf " "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\netlist" "-pBG121" -c --devicename iCE40HX4K
+starting edif parserrunning edif parserLattice Semiconductor Corporation  Edif Parser
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:30:22
+
+Parsing edif file: D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt/DividerFPGA.edf...
+start to read sdc/scf file D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt/DividerFPGA.scf
+sdc_reader OK D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt/DividerFPGA.scf
+Stored edif netlist at D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\netlist\oadb-top...
+
+write Timing Constraint to D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt/Temp/sbt_temp.sdc
+
+EDIF Parser succeeded
+Top module is: top
+
+EDF Parser run-time: 5 (sec)
+edif parser succeed.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\sbtplacer.exe" --des-lib "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\netlist\oadb-top" --outdir "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\placer" --device-file "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P04.dev" --package BG121 --deviceMarketName iCE40HX4K --sdc-file "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\Temp/sbt_temp.sdc" --lib-file "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40HX8K.lib" --effort_level std --out-sdc-file "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\placer\top_pl.sdc"
+starting placerrunning placerExecuting : C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbtplacer.exe --des-lib D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\netlist\oadb-top --outdir D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\placer --device-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P04.dev --package BG121 --deviceMarketName iCE40HX4K --sdc-file D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\Temp/sbt_temp.sdc --lib-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40HX8K.lib --effort_level std --out-sdc-file D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\placer\top_pl.sdc
+Lattice Semiconductor Corporation  Placer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:55:52
+
+I2004: Option and Settings Summary
+=============================================================
+Device file          - C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P04.dev
+Package              - BG121
+Design database      - D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\netlist\oadb-top
+SDC file             - D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\Temp/sbt_temp.sdc
+Output directory     - D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\placer
+Timing library       - C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40HX8K.lib
+Effort level         - std
+
+I2050: Starting reading inputs for placer
+=============================================================
+I2100: Reading design library: D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\netlist\oadb-top/BFPGA_DESIGN_ep
+I2065: Reading device file : C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P04.dev
+I2051: Reading of inputs for placer completed successfully
+
+I2053: Starting placement of the design
+=============================================================
+
+Input Design Statistics
+    Number of LUTs      	:	76
+    Number of DFFs      	:	36
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	31
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	6
+    Number of GBIOs     	:	2
+    Number of GBs       	:	1
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+
+
+Phase 1
+I2077: Start design legalization
+
+Design Legalization Statistics
+    Number of feedthru LUTs inserted to legalize input of DFFs     	:	16
+    Number of feedthru LUTs inserted for LUTs driving multiple DFFs	:	0
+    Number of LUTs replicated for LUTs driving multiple DFFs       	:	2
+    Number of feedthru LUTs inserted to legalize output of CARRYs  	:	0
+    Number of feedthru LUTs inserted to legalize global signals    	:	0
+    Number of feedthru CARRYs inserted to legalize input of CARRYs 	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 01xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 10xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 11xxxx  	:	0
+    Total LUTs inserted                                            	:	18
+    Total CARRYs inserted                                          	:	0
+
+
+I2078: Design legalization is completed successfully
+I2088: Phase 1, elapsed time : 0.0 (sec)
+
+
+Phase 2
+I2088: Phase 2, elapsed time : 0.1 (sec)
+
+Phase 3
+
+Design Statistics after Packing
+    Number of LUTs      	:	94
+    Number of DFFs      	:	36
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	31
+
+Device Utilization Summary after Packing
+    Sequential LogicCells
+        LUT and DFF      	:	21
+        LUT, DFF and CARRY	:	15
+    Combinational LogicCells
+        Only LUT         	:	42
+        CARRY Only       	:	0
+        LUT with CARRY   	:	16
+    LogicCells                  :	94/3520
+    PLBs                        :	13/440
+    BRAMs                       :	0/20
+    IOs and GBIOs               :	8/93
+    PLLs                        :	0/2
+
+
+I2088: Phase 3, elapsed time : 0.3 (sec)
+
+Phase 4
+I2088: Phase 4, elapsed time : 0.1 (sec)
+
+Phase 5
+I2088: Phase 5, elapsed time : 0.2 (sec)
+
+Phase 6
+I2088: Phase 6, elapsed time : 11.4 (sec)
+
+Final Design Statistics
+    Number of LUTs      	:	94
+    Number of DFFs      	:	36
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	31
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	6
+    Number of GBIOs     	:	2
+    Number of GBs       	:	1
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+
+Device Utilization Summary
+    LogicCells                  :	94/3520
+    PLBs                        :	16/440
+    BRAMs                       :	0/20
+    IOs and GBIOs               :	8/93
+    PLLs                        :	0/2
+
+
+
+#####################################################################
+Placement Timing Summary
+
+The timing summary is based on estimated routing delays after
+placement. For final timing report, please carry out the timing
+analysis after routing.
+=====================================================================
+
+#####################################################################
+                     Clock Summary 
+=====================================================================
+Number of clocks: 2
+Clock: top|laser_pulse | Frequency: 119.90 MHz | Target: 79.94 MHz
+Clock: top|sr_clk | Frequency: 625.80 MHz | Target: 366.30 MHz
+
+=====================================================================
+                     End of Clock Summary
+#####################################################################
+
+I2054: Placement of design completed successfully
+
+I2076: Placer run-time: 12.5 sec.
+
+placer succeed.
+starting IPExporterrunning IPExporterIPExporter succeed.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\packer.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P04.dev" "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\netlist\oadb-top" --package BG121 --outdir "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\packer" --DRC_only  --translator "C:\lscc\iCEcube2.2020.12\sbt_backend\bin\sdc_translator.tcl" --src_sdc_file "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\placer\top_pl.sdc" --dst_sdc_file "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\packer\top_pk.sdc" --devicename iCE40HX4K
+starting packerrunning packerLattice Semiconductor Corporation  Packer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:32:13
+
+Begin Packing...
+initializing finish
+Total HPWL cost is 154
+used logic cells: 94
+Design Rule Checking Succeeded
+
+DRC Checker run-time: 0 (sec)
+packer succeed.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\packer.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P04.dev" "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\netlist\oadb-top" --package BG121 --outdir "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\packer" --translator "C:\lscc\iCEcube2.2020.12\sbt_backend\bin\sdc_translator.tcl" --src_sdc_file "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\placer\top_pl.sdc" --dst_sdc_file "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\packer\top_pk.sdc" --devicename iCE40HX4K
+starting packerrunning packerLattice Semiconductor Corporation  Packer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:32:13
+
+Begin Packing...
+initializing finish
+Total HPWL cost is 154
+used logic cells: 94
+Translating sdc file D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\placer\top_pl.sdc...
+Translated sdc file is D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\packer\top_pk.sdc
+Packer succeeded
+
+Packer run-time: 1 (sec)
+packer succeed.
+
+
+"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbrouter.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P04.dev" "D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\sbt\netlist\oadb-top" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40HX8K.lib" "D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\sbt\outputs\packer\top_pk.sdc" --outdir "D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\sbt\outputs\router" --sdf_file "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf" --pin_permutation
+starting routerrunning routerSJRouter....
+Executing : C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbrouter.exe C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P04.dev D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\sbt\netlist\oadb-top C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40HX8K.lib D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\sbt\outputs\packer\top_pk.sdc --outdir D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\sbt\outputs\router --sdf_file D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf --pin_permutation 
+Lattice Semiconductor Corporation  Router
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:44:15
+
+I1203: Reading Design top
+Read design time: 0
+I1202: Reading Architecture of device iCE40HX4K
+Read device time: 6
+I1209: Started routing
+I1223: Total Nets : 134 
+I1212: Iteration  1 :    13 unrouted : 0 seconds
+I1212: Iteration  2 :     0 unrouted : 0 seconds
+I1215: Routing is successful
+Routing time: 1
+I1206: Completed routing
+I1204: Writing Design top
+Lib Closed
+I1210: Writing routes
+I1218: Exiting the router
+I1224: Router run-time : 7 seconds
+router succeed.
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\netlister.exe" --verilog "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\simulation_netlist\top_sbt.v" --vhdl "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt/sbt/outputs/simulation_netlist\top_sbt.vhd" --lib "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\netlist\oadb-top" --view rt --device "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P04.dev" --splitio  --in-sdc-file "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\packer\top_pk.sdc" --out-sdc-file "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\netlister\top_sbt.sdc"
+starting netlistrunning netlistLattice Semiconductor Corporation  Verilog & VHDL Netlister
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 18:18:39
+
+Generating Verilog & VHDL netlist files ...
+Writing D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\simulation_netlist\top_sbt.v
+Writing D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt/sbt/outputs/simulation_netlist\top_sbt.vhd
+Netlister succeeded.
+
+Netlister run-time: 1 (sec)
+netlist succeed.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\sbtimer.exe" --des-lib "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\netlist\oadb-top" --lib-file "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40HX8K.lib" --sdc-file "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\netlister\top_sbt.sdc" --sdf-file "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf" --report-file "D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\sbt\outputs\timer\top_timing.rpt" --device-file "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P04.dev" --timing-summary
+starting timerrunning timerExecuting : C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbtimer.exe --des-lib D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\netlist\oadb-top --lib-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40HX8K.lib --sdc-file D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\netlister\top_sbt.sdc --sdf-file D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf --report-file D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\sbt\outputs\timer\top_timing.rpt --device-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P04.dev --timing-summary
+Lattice Semiconductor Corporation  Timer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:41:47
+
+Timer run-time: 1 seconds
+timer succeed.
+timer succeeded.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\bitmap.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P04.dev" --design "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\netlist\oadb-top" --device_name iCE40HX4K --package BG121 --outdir "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\bitmap" --low_power on --init_ram on --init_ram_bank 1111 --frequency low --warm_boot on
+starting bitmaprunning bitmapLattice Semiconductor Corporation  Bit Stream Generator
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 18:17:40
+
+Bit Stream File Size: 1080760 (1M 31K 440 Bits)
+Bit Stream Generator succeeded
+
+Bitmap run-time: 0 (sec)
+bitmap succeed.
+Unrecognizable name top
+"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "DividerFPGA_syn.prj" -log "DividerFPGA_Implmnt/DividerFPGA.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of DividerFPGA_Implmnt/DividerFPGA.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: TK-FRAMEWERK
+
+# Mon Jul 03 13:28:56 2023
+
+#Implementation: DividerFPGA_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v" (library work)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\Icecube\DividerFPGA\top.v" (library work)
+@E: CS179 :"D:\Icecube\DividerFPGA\top.v":65:7:65:20|Assignment target velocity_state must be a net type
+@I::"D:\Icecube\DividerFPGA\counter16.v" (library work)
+@I::"D:\Icecube\DividerFPGA\sr16.v" (library work)
+1 syntax errors
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jul 03 13:28:58 2023
+
+###########################################################]
+@END
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Mon Jul 03 13:28:58 2023
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 4 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "DividerFPGA_syn.prj" -log "DividerFPGA_Implmnt/DividerFPGA.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of DividerFPGA_Implmnt/DividerFPGA.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: TK-FRAMEWERK
+
+# Mon Jul 03 13:29:26 2023
+
+#Implementation: DividerFPGA_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v" (library work)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\Icecube\DividerFPGA\top.v" (library work)
+@I::"D:\Icecube\DividerFPGA\counter16.v" (library work)
+@I::"D:\Icecube\DividerFPGA\sr16.v" (library work)
+Verilog syntax check successful!
+Selecting top level module top
+@N: CG364 :"D:\Icecube\DividerFPGA\sr16.v":3:7:3:10|Synthesizing module sr16 in library work.
+
+@N: CG364 :"D:\Icecube\DividerFPGA\counter16.v":3:7:3:15|Synthesizing module counter16 in library work.
+
+@N: CG364 :"D:\Icecube\DividerFPGA\top.v":1:7:1:9|Synthesizing module top in library work.
+
+@W: CG360 :"D:\Icecube\DividerFPGA\top.v":18:11:18:23|Removing wire row_completed, as there is no assignment to it.
+@W: CL168 :"D:\Icecube\DividerFPGA\top.v":45:10:45:20|Removing instance row_counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"D:\Icecube\DividerFPGA\top.v":35:5:35:10|Removing instance row_sr because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL157 :"D:\Icecube\DividerFPGA\top.v":18:11:18:23|*Output row_completed has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL159 :"D:\Icecube\DividerFPGA\top.v":10:10:10:19|Input sr_sel_row is unused.
+@N: CL159 :"D:\Icecube\DividerFPGA\top.v":11:10:11:19|Input sr_clr_row is unused.
+@N: CL159 :"D:\Icecube\DividerFPGA\top.v":13:10:13:19|Input en_rowpack is unused.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jul 03 13:29:26 2023
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"D:\Icecube\DividerFPGA\top.v":1:7:1:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"D:\Icecube\DividerFPGA\top.v":1:7:1:9|Selected library: work cell: top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jul 03 13:29:27 2023
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jul 03 13:29:27 2023
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+File D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\synwork\DividerFPGA_comp.srs changed - recompiling
+@N: NF107 :"D:\Icecube\DividerFPGA\top.v":1:7:1:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"D:\Icecube\DividerFPGA\top.v":1:7:1:9|Selected library: work cell: top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jul 03 13:29:28 2023
+
+###########################################################]
+Pre-mapping Report
+
+# Mon Jul 03 13:29:28 2023
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\DividerFPGA_scck.rpt 
+Printing clock  summary report in "D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\DividerFPGA_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+@N: MO111 :"d:\icecube\dividerfpga\top.v":18:11:18:23|Tristate driver row_completed (in view: work.top(verilog)) on net row_completed (in view: work.top(verilog)) has its enable tied to GND.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=20  set on top level netlist top
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+Clock Summary
+*****************
+
+Start               Requested     Requested     Clock        Clock                     Clock
+Clock               Frequency     Period        Type         Group                     Load 
+--------------------------------------------------------------------------------------------
+top|laser_pulse     277.9 MHz     3.598         inferred     Autoconstr_clkgroup_0     19   
+top|sr_clk          754.8 MHz     1.325         inferred     Autoconstr_clkgroup_1     16   
+============================================================================================
+
+@W: MT529 :"d:\icecube\dividerfpga\counter16.v":14:0:14:5|Found inferred clock top|laser_pulse which controls 19 sequential elements including pulse_counter.internal_count_reached. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Found inferred clock top|sr_clk which controls 16 sequential elements including divider_sr.shifted_data[15:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: MO111 :"d:\icecube\dividerfpga\top.v":18:11:18:23|Tristate driver row_completed (in view: work.top(verilog)) on net row_completed (in view: work.top(verilog)) has its enable tied to GND.
+@N: BN225 |Writing default property annotation file D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\DividerFPGA.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jul 03 13:29:29 2023
+
+###########################################################]
+Map & Optimize Report
+
+# Mon Jul 03 13:29:29 2023
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+@N: MO111 :"d:\icecube\dividerfpga\top.v":18:11:18:23|Tristate driver row_completed (in view: work.top(verilog)) on net row_completed (in view: work.top(verilog)) has its enable tied to GND.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+@W: FX1039 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|User-specified initial value defined for instance divider_sr.shifted_data[15:0] is being ignored. 
+@W: FX1039 :"d:\icecube\dividerfpga\counter16.v":14:0:14:5|User-specified initial value defined for instance pulse_counter.internal_count_reached is being ignored. 
+@W: FX1039 :"d:\icecube\dividerfpga\counter16.v":14:0:14:5|User-specified initial value defined for instance pulse_counter.internal_count[15:0] is being ignored. 
+@W: FX1039 :"d:\icecube\dividerfpga\top.v":49:0:49:5|User-specified initial value defined for instance output_state is being ignored. 
+@W: FX1039 :"d:\icecube\dividerfpga\top.v":49:0:49:5|User-specified initial value defined for instance reset_signal is being ignored. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -2.76ns		  44 /        35
+   2		0h:00m:00s		    -2.76ns		  44 /        35
+   3		0h:00m:00s		    -1.40ns		  44 /        35
+@N: FX271 :"d:\icecube\dividerfpga\top.v":49:0:49:5|Replicating instance reset_signal (in view: work.top(verilog)) with 18 loads 1 time to improve timing.
+Timing driven replication report
+Added 1 Registers via timing driven replication
+Added 0 LUTs via timing driven replication
+
+   4		0h:00m:00s		    -1.40ns		  44 /        36
+
+
+   5		0h:00m:00s		    -1.36ns		  45 /        36
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[15] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[14] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[13] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[12] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[11] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[10] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[9] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[8] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[7] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[6] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[5] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[4] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[3] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[2] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[1] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\icecube\dividerfpga\sr16.v":14:0:14:5|Boundary register divider_sr.shifted_data[0] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: FX1016 :"d:\icecube\dividerfpga\top.v":2:10:2:20|SB_GB_IO inserted on the port laser_pulse.
+@N: FX1016 :"d:\icecube\dividerfpga\top.v":6:10:6:15|SB_GB_IO inserted on the port sr_clk.
+@N: FX1017 :"d:\icecube\dividerfpga\top.v":49:0:49:5|SB_GB inserted on the net reset_signal_iso.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+2 non-gated/non-generated clock tree(s) driving 36 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+======================================= Non-Gated/Non-Generated Clocks =======================================
+Clock Tree ID     Driving Element            Drive Element Type     Fanout     Sample Instance                
+--------------------------------------------------------------------------------------------------------------
+@K:CKID0001       laser_pulse_ibuf_gb_io     SB_GB_IO               20         reset_signal_iso               
+@K:CKID0002       sr_clk_ibuf_gb_io          SB_GB_IO               16         divider_sr.shifted_data_esr[15]
+==============================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 133MB)
+
+Writing Analyst data base D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\synwork\DividerFPGA_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\DividerFPGA.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+@W: MT420 |Found inferred clock top|laser_pulse with period 12.51ns. Please declare a user-defined clock on object "p:laser_pulse"
+@W: MT420 |Found inferred clock top|sr_clk with period 2.73ns. Please declare a user-defined clock on object "p:sr_clk"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Jul 03 13:29:30 2023
+#
+
+
+Top view:               top
+Requested Frequency:    80.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -2.207
+
+                    Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock      Frequency     Frequency     Period        Period        Slack      Type         Group                
+-------------------------------------------------------------------------------------------------------------------------
+top|laser_pulse     80.0 MHz      68.0 MHz      12.507        14.714        -2.207     inferred     Autoconstr_clkgroup_0
+top|sr_clk          366.1 MHz     311.2 MHz     2.731         3.213         -0.482     inferred     Autoconstr_clkgroup_1
+=========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------
+Starting         Ending           |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------
+top|laser_pulse  top|laser_pulse  |  12.507      -2.207  |  No paths    -      |  No paths    -      |  No paths    -    
+top|sr_clk       top|laser_pulse  |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+top|sr_clk       top|sr_clk       |  2.731       -0.482  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: top|laser_pulse
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                    Starting                                                       Arrival           
+Instance                            Reference           Type         Pin     Net                   Time        Slack 
+                                    Clock                                                                            
+---------------------------------------------------------------------------------------------------------------------
+pulse_counter.internal_count[0]     top|laser_pulse     SB_DFFSR     Q       internal_count[0]     0.540       -2.207
+pulse_counter.internal_count[1]     top|laser_pulse     SB_DFFSR     Q       internal_count[1]     0.540       -2.114
+pulse_counter.internal_count[2]     top|laser_pulse     SB_DFFSR     Q       internal_count[2]     0.540       -0.446
+pulse_counter.internal_count[3]     top|laser_pulse     SB_DFFSR     Q       internal_count[3]     0.540       -0.306
+pulse_counter.internal_count[4]     top|laser_pulse     SB_DFFSR     Q       internal_count[4]     0.540       -0.166
+pulse_counter.internal_count[5]     top|laser_pulse     SB_DFFSR     Q       internal_count[5]     0.540       -0.026
+pulse_counter.internal_count[6]     top|laser_pulse     SB_DFFSR     Q       internal_count[6]     0.540       0.114 
+pulse_counter.internal_count[7]     top|laser_pulse     SB_DFFSR     Q       internal_count[7]     0.540       0.255 
+pulse_counter.internal_count[8]     top|laser_pulse     SB_DFFSR     Q       internal_count[8]     0.540       0.395 
+pulse_counter.internal_count[9]     top|laser_pulse     SB_DFFSR     Q       internal_count[9]     0.540       0.535 
+=====================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                         Starting                                                               Required           
+Instance                                 Reference           Type         Pin     Net                           Time         Slack 
+                                         Clock                                                                                     
+-----------------------------------------------------------------------------------------------------------------------------------
+pulse_counter.internal_count_reached     top|laser_pulse     SB_DFFSR     D       internal_count_reached_en     12.402       -2.207
+pulse_counter.internal_count[15]         top|laser_pulse     SB_DFFSR     D       internal_count_RNO[15]        12.402       4.612 
+pulse_counter.internal_count[14]         top|laser_pulse     SB_DFFSR     D       internal_count_RNO[14]        12.402       4.752 
+pulse_counter.internal_count[13]         top|laser_pulse     SB_DFFSR     D       internal_count_RNO[13]        12.402       4.892 
+pulse_counter.internal_count[12]         top|laser_pulse     SB_DFFSR     D       internal_count_RNO[12]        12.402       5.032 
+pulse_counter.internal_count[11]         top|laser_pulse     SB_DFFSR     D       internal_count_RNO[11]        12.402       5.172 
+pulse_counter.internal_count[10]         top|laser_pulse     SB_DFFSR     D       internal_count_RNO[10]        12.402       5.313 
+pulse_counter.internal_count[9]          top|laser_pulse     SB_DFFSR     D       internal_count_RNO[9]         12.402       5.453 
+pulse_counter.internal_count[8]          top|laser_pulse     SB_DFFSR     D       internal_count_RNO[8]         12.402       5.593 
+pulse_counter.internal_count[7]          top|laser_pulse     SB_DFFSR     D       internal_count_RNO[7]         12.402       5.733 
+===================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      12.507
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         12.402
+
+    - Propagation time:                      14.609
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.207
+
+    Number of logic level(s):                8
+    Starting point:                          pulse_counter.internal_count[0] / Q
+    Ending point:                            pulse_counter.internal_count_reached / D
+    The start point is clocked by            top|laser_pulse [rising] on pin C
+    The end   point is clocked by            top|laser_pulse [rising] on pin C
+
+Instance / Net                                                           Pin      Pin               Arrival     No. of    
+Name                                                        Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------
+pulse_counter.internal_count[0]                             SB_DFFSR     Q        Out     0.540     0.540       -         
+internal_count[0]                                           Net          -        -       1.599     -           4         
+pulse_counter.internal_count_reached4_a_4_cry_0_0_c_inv     SB_LUT4      I0       In      -         2.139       -         
+pulse_counter.internal_count_reached4_a_4_cry_0_0_c_inv     SB_LUT4      O        Out     0.449     2.588       -         
+internal_count_i[0]                                         Net          -        -       0.905     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_0_0_c         SB_CARRY     I0       In      -         3.493       -         
+pulse_counter.internal_count_reached4_a_4_cry_0_0_c         SB_CARRY     CO       Out     0.258     3.750       -         
+internal_count_reached4_a_4_cry_0                           Net          -        -       0.386     -           2         
+pulse_counter.internal_count_reached_RNO_20                 SB_LUT4      I3       In      -         4.136       -         
+pulse_counter.internal_count_reached_RNO_20                 SB_LUT4      O        Out     0.316     4.452       -         
+internal_count_reached4_1                                   Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_19                 SB_LUT4      I3       In      -         5.823       -         
+pulse_counter.internal_count_reached_RNO_19                 SB_LUT4      O        Out     0.316     6.138       -         
+internal_count_reached_RNO_19                               Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_18                 SB_LUT4      I0       In      -         7.510       -         
+pulse_counter.internal_count_reached_RNO_18                 SB_LUT4      O        Out     0.449     7.958       -         
+internal_count_reached4_NE_3                                Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_4                  SB_LUT4      I3       In      -         9.329       -         
+pulse_counter.internal_count_reached_RNO_4                  SB_LUT4      O        Out     0.316     9.645       -         
+internal_count_reached4_NE_12                               Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_0                  SB_LUT4      I3       In      -         11.016      -         
+pulse_counter.internal_count_reached_RNO_0                  SB_LUT4      O        Out     0.316     11.332      -         
+internal_count_reached4                                     Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO                    SB_LUT4      I1       In      -         12.703      -         
+pulse_counter.internal_count_reached_RNO                    SB_LUT4      O        Out     0.400     13.102      -         
+internal_count_reached_en                                   Net          -        -       1.507     -           1         
+pulse_counter.internal_count_reached                        SB_DFFSR     D        In      -         14.609      -         
+==========================================================================================================================
+Total path delay (propagation time + setup) of 14.714 is 3.462(23.5%) logic and 11.252(76.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      12.507
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         12.402
+
+    - Propagation time:                      14.516
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.114
+
+    Number of logic level(s):                7
+    Starting point:                          pulse_counter.internal_count[1] / Q
+    Ending point:                            pulse_counter.internal_count_reached / D
+    The start point is clocked by            top|laser_pulse [rising] on pin C
+    The end   point is clocked by            top|laser_pulse [rising] on pin C
+
+Instance / Net                                               Pin      Pin               Arrival     No. of    
+Name                                            Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------
+pulse_counter.internal_count[1]                 SB_DFFSR     Q        Out     0.540     0.540       -         
+internal_count[1]                               Net          -        -       1.599     -           3         
+pulse_counter.internal_count_sbtinv[1]          SB_LUT4      I0       In      -         2.139       -         
+pulse_counter.internal_count_sbtinv[1]          SB_LUT4      O        Out     0.449     2.588       -         
+internal_count_i[1]                             Net          -        -       1.371     -           2         
+pulse_counter.internal_count_reached_RNO_20     SB_LUT4      I1       In      -         3.959       -         
+pulse_counter.internal_count_reached_RNO_20     SB_LUT4      O        Out     0.400     4.359       -         
+internal_count_reached4_1                       Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_19     SB_LUT4      I3       In      -         5.729       -         
+pulse_counter.internal_count_reached_RNO_19     SB_LUT4      O        Out     0.316     6.045       -         
+internal_count_reached_RNO_19                   Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_18     SB_LUT4      I0       In      -         7.416       -         
+pulse_counter.internal_count_reached_RNO_18     SB_LUT4      O        Out     0.449     7.865       -         
+internal_count_reached4_NE_3                    Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_4      SB_LUT4      I3       In      -         9.236       -         
+pulse_counter.internal_count_reached_RNO_4      SB_LUT4      O        Out     0.316     9.552       -         
+internal_count_reached4_NE_12                   Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_0      SB_LUT4      I3       In      -         10.922      -         
+pulse_counter.internal_count_reached_RNO_0      SB_LUT4      O        Out     0.316     11.238      -         
+internal_count_reached4                         Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO        SB_LUT4      I1       In      -         12.609      -         
+pulse_counter.internal_count_reached_RNO        SB_LUT4      O        Out     0.400     13.009      -         
+internal_count_reached_en                       Net          -        -       1.507     -           1         
+pulse_counter.internal_count_reached            SB_DFFSR     D        In      -         14.516      -         
+==============================================================================================================
+Total path delay (propagation time + setup) of 14.621 is 3.289(22.5%) logic and 11.332(77.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      12.507
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         12.402
+
+    - Propagation time:                      13.129
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.727
+
+    Number of logic level(s):                20
+    Starting point:                          pulse_counter.internal_count[0] / Q
+    Ending point:                            pulse_counter.internal_count_reached / D
+    The start point is clocked by            top|laser_pulse [rising] on pin C
+    The end   point is clocked by            top|laser_pulse [rising] on pin C
+
+Instance / Net                                                           Pin      Pin               Arrival     No. of    
+Name                                                        Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------
+pulse_counter.internal_count[0]                             SB_DFFSR     Q        Out     0.540     0.540       -         
+internal_count[0]                                           Net          -        -       1.599     -           4         
+pulse_counter.internal_count_reached4_a_4_cry_0_0_c_inv     SB_LUT4      I0       In      -         2.139       -         
+pulse_counter.internal_count_reached4_a_4_cry_0_0_c_inv     SB_LUT4      O        Out     0.449     2.588       -         
+internal_count_i[0]                                         Net          -        -       0.905     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_0_0_c         SB_CARRY     I0       In      -         3.493       -         
+pulse_counter.internal_count_reached4_a_4_cry_0_0_c         SB_CARRY     CO       Out     0.258     3.750       -         
+internal_count_reached4_a_4_cry_0                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_1_0_c         SB_CARRY     CI       In      -         3.764       -         
+pulse_counter.internal_count_reached4_a_4_cry_1_0_c         SB_CARRY     CO       Out     0.126     3.890       -         
+internal_count_reached4_a_4_cry_1                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_2_0_c         SB_CARRY     CI       In      -         3.905       -         
+pulse_counter.internal_count_reached4_a_4_cry_2_0_c         SB_CARRY     CO       Out     0.126     4.031       -         
+internal_count_reached4_a_4_cry_2                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_3_0_c         SB_CARRY     CI       In      -         4.045       -         
+pulse_counter.internal_count_reached4_a_4_cry_3_0_c         SB_CARRY     CO       Out     0.126     4.171       -         
+internal_count_reached4_a_4_cry_3                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_4_0_c         SB_CARRY     CI       In      -         4.185       -         
+pulse_counter.internal_count_reached4_a_4_cry_4_0_c         SB_CARRY     CO       Out     0.126     4.311       -         
+internal_count_reached4_a_4_cry_4                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_5_0_c         SB_CARRY     CI       In      -         4.325       -         
+pulse_counter.internal_count_reached4_a_4_cry_5_0_c         SB_CARRY     CO       Out     0.126     4.451       -         
+internal_count_reached4_a_4_cry_5                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_6_0_c         SB_CARRY     CI       In      -         4.465       -         
+pulse_counter.internal_count_reached4_a_4_cry_6_0_c         SB_CARRY     CO       Out     0.126     4.591       -         
+internal_count_reached4_a_4_cry_6                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_7_0_c         SB_CARRY     CI       In      -         4.606       -         
+pulse_counter.internal_count_reached4_a_4_cry_7_0_c         SB_CARRY     CO       Out     0.126     4.732       -         
+internal_count_reached4_a_4_cry_7                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_8_0_c         SB_CARRY     CI       In      -         4.746       -         
+pulse_counter.internal_count_reached4_a_4_cry_8_0_c         SB_CARRY     CO       Out     0.126     4.872       -         
+internal_count_reached4_a_4_cry_8                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_9_0_c         SB_CARRY     CI       In      -         4.886       -         
+pulse_counter.internal_count_reached4_a_4_cry_9_0_c         SB_CARRY     CO       Out     0.126     5.012       -         
+internal_count_reached4_a_4_cry_9                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_10_0_c        SB_CARRY     CI       In      -         5.026       -         
+pulse_counter.internal_count_reached4_a_4_cry_10_0_c        SB_CARRY     CO       Out     0.126     5.152       -         
+internal_count_reached4_a_4_cry_10                          Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_11_0_c        SB_CARRY     CI       In      -         5.166       -         
+pulse_counter.internal_count_reached4_a_4_cry_11_0_c        SB_CARRY     CO       Out     0.126     5.293       -         
+internal_count_reached4_a_4_cry_11                          Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_12_0_c        SB_CARRY     CI       In      -         5.306       -         
+pulse_counter.internal_count_reached4_a_4_cry_12_0_c        SB_CARRY     CO       Out     0.126     5.433       -         
+internal_count_reached4_a_4_cry_12                          Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_13_0_c        SB_CARRY     CI       In      -         5.447       -         
+pulse_counter.internal_count_reached4_a_4_cry_13_0_c        SB_CARRY     CO       Out     0.126     5.573       -         
+internal_count_reached4_a_4_cry_13                          Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_14_0_c        SB_CARRY     CI       In      -         5.587       -         
+pulse_counter.internal_count_reached4_a_4_cry_14_0_c        SB_CARRY     CO       Out     0.126     5.713       -         
+internal_count_reached4_a_4_cry_14                          Net          -        -       0.386     -           2         
+pulse_counter.internal_count_reached_RNO_14                 SB_LUT4      I3       In      -         6.099       -         
+pulse_counter.internal_count_reached_RNO_14                 SB_LUT4      O        Out     0.316     6.415       -         
+internal_count_reached4_15                                  Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_3                  SB_LUT4      I3       In      -         7.786       -         
+pulse_counter.internal_count_reached_RNO_3                  SB_LUT4      O        Out     0.316     8.101       -         
+internal_count_reached4_NE_10                               Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_0                  SB_LUT4      I2       In      -         9.472       -         
+pulse_counter.internal_count_reached_RNO_0                  SB_LUT4      O        Out     0.379     9.851       -         
+internal_count_reached4                                     Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO                    SB_LUT4      I1       In      -         11.222      -         
+pulse_counter.internal_count_reached_RNO                    SB_LUT4      O        Out     0.400     11.622      -         
+internal_count_reached_en                                   Net          -        -       1.507     -           1         
+pulse_counter.internal_count_reached                        SB_DFFSR     D        In      -         13.129      -         
+==========================================================================================================================
+Total path delay (propagation time + setup) of 13.234 is 4.528(34.2%) logic and 8.706(65.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      12.507
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         12.402
+
+    - Propagation time:                      13.122
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.720
+
+    Number of logic level(s):                19
+    Starting point:                          pulse_counter.internal_count[0] / Q
+    Ending point:                            pulse_counter.internal_count_reached / D
+    The start point is clocked by            top|laser_pulse [rising] on pin C
+    The end   point is clocked by            top|laser_pulse [rising] on pin C
+
+Instance / Net                                                           Pin      Pin               Arrival     No. of    
+Name                                                        Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------
+pulse_counter.internal_count[0]                             SB_DFFSR     Q        Out     0.540     0.540       -         
+internal_count[0]                                           Net          -        -       1.599     -           4         
+pulse_counter.internal_count_reached4_a_4_cry_0_0_c_inv     SB_LUT4      I0       In      -         2.139       -         
+pulse_counter.internal_count_reached4_a_4_cry_0_0_c_inv     SB_LUT4      O        Out     0.449     2.588       -         
+internal_count_i[0]                                         Net          -        -       0.905     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_0_0_c         SB_CARRY     I0       In      -         3.493       -         
+pulse_counter.internal_count_reached4_a_4_cry_0_0_c         SB_CARRY     CO       Out     0.258     3.750       -         
+internal_count_reached4_a_4_cry_0                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_1_0_c         SB_CARRY     CI       In      -         3.764       -         
+pulse_counter.internal_count_reached4_a_4_cry_1_0_c         SB_CARRY     CO       Out     0.126     3.890       -         
+internal_count_reached4_a_4_cry_1                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_2_0_c         SB_CARRY     CI       In      -         3.905       -         
+pulse_counter.internal_count_reached4_a_4_cry_2_0_c         SB_CARRY     CO       Out     0.126     4.031       -         
+internal_count_reached4_a_4_cry_2                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_3_0_c         SB_CARRY     CI       In      -         4.045       -         
+pulse_counter.internal_count_reached4_a_4_cry_3_0_c         SB_CARRY     CO       Out     0.126     4.171       -         
+internal_count_reached4_a_4_cry_3                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_4_0_c         SB_CARRY     CI       In      -         4.185       -         
+pulse_counter.internal_count_reached4_a_4_cry_4_0_c         SB_CARRY     CO       Out     0.126     4.311       -         
+internal_count_reached4_a_4_cry_4                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_5_0_c         SB_CARRY     CI       In      -         4.325       -         
+pulse_counter.internal_count_reached4_a_4_cry_5_0_c         SB_CARRY     CO       Out     0.126     4.451       -         
+internal_count_reached4_a_4_cry_5                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_6_0_c         SB_CARRY     CI       In      -         4.465       -         
+pulse_counter.internal_count_reached4_a_4_cry_6_0_c         SB_CARRY     CO       Out     0.126     4.591       -         
+internal_count_reached4_a_4_cry_6                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_7_0_c         SB_CARRY     CI       In      -         4.606       -         
+pulse_counter.internal_count_reached4_a_4_cry_7_0_c         SB_CARRY     CO       Out     0.126     4.732       -         
+internal_count_reached4_a_4_cry_7                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_8_0_c         SB_CARRY     CI       In      -         4.746       -         
+pulse_counter.internal_count_reached4_a_4_cry_8_0_c         SB_CARRY     CO       Out     0.126     4.872       -         
+internal_count_reached4_a_4_cry_8                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_9_0_c         SB_CARRY     CI       In      -         4.886       -         
+pulse_counter.internal_count_reached4_a_4_cry_9_0_c         SB_CARRY     CO       Out     0.126     5.012       -         
+internal_count_reached4_a_4_cry_9                           Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_10_0_c        SB_CARRY     CI       In      -         5.026       -         
+pulse_counter.internal_count_reached4_a_4_cry_10_0_c        SB_CARRY     CO       Out     0.126     5.152       -         
+internal_count_reached4_a_4_cry_10                          Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_11_0_c        SB_CARRY     CI       In      -         5.166       -         
+pulse_counter.internal_count_reached4_a_4_cry_11_0_c        SB_CARRY     CO       Out     0.126     5.293       -         
+internal_count_reached4_a_4_cry_11                          Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_12_0_c        SB_CARRY     CI       In      -         5.306       -         
+pulse_counter.internal_count_reached4_a_4_cry_12_0_c        SB_CARRY     CO       Out     0.126     5.433       -         
+internal_count_reached4_a_4_cry_12                          Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_13_0_c        SB_CARRY     CI       In      -         5.447       -         
+pulse_counter.internal_count_reached4_a_4_cry_13_0_c        SB_CARRY     CO       Out     0.126     5.573       -         
+internal_count_reached4_a_4_cry_13                          Net          -        -       0.386     -           2         
+pulse_counter.internal_count_reached_RNO_7                  SB_LUT4      I3       In      -         5.959       -         
+pulse_counter.internal_count_reached_RNO_7                  SB_LUT4      O        Out     0.316     6.274       -         
+internal_count_reached4_14                                  Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_1                  SB_LUT4      I2       In      -         7.646       -         
+pulse_counter.internal_count_reached_RNO_1                  SB_LUT4      O        Out     0.379     8.024       -         
+internal_count_reached4_NE_1                                Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_0                  SB_LUT4      I0       In      -         9.395       -         
+pulse_counter.internal_count_reached_RNO_0                  SB_LUT4      O        Out     0.449     9.844       -         
+internal_count_reached4                                     Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO                    SB_LUT4      I1       In      -         11.215      -         
+pulse_counter.internal_count_reached_RNO                    SB_LUT4      O        Out     0.400     11.615      -         
+internal_count_reached_en                                   Net          -        -       1.507     -           1         
+pulse_counter.internal_count_reached                        SB_DFFSR     D        In      -         13.122      -         
+==========================================================================================================================
+Total path delay (propagation time + setup) of 13.227 is 4.535(34.3%) logic and 8.692(65.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      12.507
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         12.402
+
+    - Propagation time:                      12.989
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.587
+
+    Number of logic level(s):                19
+    Starting point:                          pulse_counter.internal_count[1] / Q
+    Ending point:                            pulse_counter.internal_count_reached / D
+    The start point is clocked by            top|laser_pulse [rising] on pin C
+    The end   point is clocked by            top|laser_pulse [rising] on pin C
+
+Instance / Net                                                        Pin      Pin               Arrival     No. of    
+Name                                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------
+pulse_counter.internal_count[1]                          SB_DFFSR     Q        Out     0.540     0.540       -         
+internal_count[1]                                        Net          -        -       1.599     -           3         
+pulse_counter.internal_count_sbtinv[1]                   SB_LUT4      I0       In      -         2.139       -         
+pulse_counter.internal_count_sbtinv[1]                   SB_LUT4      O        Out     0.449     2.588       -         
+internal_count_i[1]                                      Net          -        -       0.905     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_1_0_c      SB_CARRY     I0       In      -         3.493       -         
+pulse_counter.internal_count_reached4_a_4_cry_1_0_c      SB_CARRY     CO       Out     0.258     3.750       -         
+internal_count_reached4_a_4_cry_1                        Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_2_0_c      SB_CARRY     CI       In      -         3.764       -         
+pulse_counter.internal_count_reached4_a_4_cry_2_0_c      SB_CARRY     CO       Out     0.126     3.890       -         
+internal_count_reached4_a_4_cry_2                        Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_3_0_c      SB_CARRY     CI       In      -         3.905       -         
+pulse_counter.internal_count_reached4_a_4_cry_3_0_c      SB_CARRY     CO       Out     0.126     4.031       -         
+internal_count_reached4_a_4_cry_3                        Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_4_0_c      SB_CARRY     CI       In      -         4.045       -         
+pulse_counter.internal_count_reached4_a_4_cry_4_0_c      SB_CARRY     CO       Out     0.126     4.171       -         
+internal_count_reached4_a_4_cry_4                        Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_5_0_c      SB_CARRY     CI       In      -         4.185       -         
+pulse_counter.internal_count_reached4_a_4_cry_5_0_c      SB_CARRY     CO       Out     0.126     4.311       -         
+internal_count_reached4_a_4_cry_5                        Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_6_0_c      SB_CARRY     CI       In      -         4.325       -         
+pulse_counter.internal_count_reached4_a_4_cry_6_0_c      SB_CARRY     CO       Out     0.126     4.451       -         
+internal_count_reached4_a_4_cry_6                        Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_7_0_c      SB_CARRY     CI       In      -         4.465       -         
+pulse_counter.internal_count_reached4_a_4_cry_7_0_c      SB_CARRY     CO       Out     0.126     4.591       -         
+internal_count_reached4_a_4_cry_7                        Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_8_0_c      SB_CARRY     CI       In      -         4.606       -         
+pulse_counter.internal_count_reached4_a_4_cry_8_0_c      SB_CARRY     CO       Out     0.126     4.732       -         
+internal_count_reached4_a_4_cry_8                        Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_9_0_c      SB_CARRY     CI       In      -         4.746       -         
+pulse_counter.internal_count_reached4_a_4_cry_9_0_c      SB_CARRY     CO       Out     0.126     4.872       -         
+internal_count_reached4_a_4_cry_9                        Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_10_0_c     SB_CARRY     CI       In      -         4.886       -         
+pulse_counter.internal_count_reached4_a_4_cry_10_0_c     SB_CARRY     CO       Out     0.126     5.012       -         
+internal_count_reached4_a_4_cry_10                       Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_11_0_c     SB_CARRY     CI       In      -         5.026       -         
+pulse_counter.internal_count_reached4_a_4_cry_11_0_c     SB_CARRY     CO       Out     0.126     5.152       -         
+internal_count_reached4_a_4_cry_11                       Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_12_0_c     SB_CARRY     CI       In      -         5.166       -         
+pulse_counter.internal_count_reached4_a_4_cry_12_0_c     SB_CARRY     CO       Out     0.126     5.293       -         
+internal_count_reached4_a_4_cry_12                       Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_13_0_c     SB_CARRY     CI       In      -         5.306       -         
+pulse_counter.internal_count_reached4_a_4_cry_13_0_c     SB_CARRY     CO       Out     0.126     5.433       -         
+internal_count_reached4_a_4_cry_13                       Net          -        -       0.014     -           2         
+pulse_counter.internal_count_reached4_a_4_cry_14_0_c     SB_CARRY     CI       In      -         5.447       -         
+pulse_counter.internal_count_reached4_a_4_cry_14_0_c     SB_CARRY     CO       Out     0.126     5.573       -         
+internal_count_reached4_a_4_cry_14                       Net          -        -       0.386     -           2         
+pulse_counter.internal_count_reached_RNO_14              SB_LUT4      I3       In      -         5.959       -         
+pulse_counter.internal_count_reached_RNO_14              SB_LUT4      O        Out     0.316     6.274       -         
+internal_count_reached4_15                               Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_3               SB_LUT4      I3       In      -         7.646       -         
+pulse_counter.internal_count_reached_RNO_3               SB_LUT4      O        Out     0.316     7.961       -         
+internal_count_reached4_NE_10                            Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO_0               SB_LUT4      I2       In      -         9.332       -         
+pulse_counter.internal_count_reached_RNO_0               SB_LUT4      O        Out     0.379     9.711       -         
+internal_count_reached4                                  Net          -        -       1.371     -           1         
+pulse_counter.internal_count_reached_RNO                 SB_LUT4      I1       In      -         11.082      -         
+pulse_counter.internal_count_reached_RNO                 SB_LUT4      O        Out     0.400     11.482      -         
+internal_count_reached_en                                Net          -        -       1.507     -           1         
+pulse_counter.internal_count_reached                     SB_DFFSR     D        In      -         12.989      -         
+=======================================================================================================================
+Total path delay (propagation time + setup) of 13.094 is 4.402(33.6%) logic and 8.692(66.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: top|sr_clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                   Starting                                                 Arrival           
+Instance                           Reference      Type          Pin     Net                 Time        Slack 
+                                   Clock                                                                      
+--------------------------------------------------------------------------------------------------------------
+divider_sr.shifted_data_esr[0]     top|sr_clk     SB_DFFESR     Q       shifted_data[0]     0.540       -0.482
+divider_sr.shifted_data_esr[1]     top|sr_clk     SB_DFFESR     Q       shifted_data[1]     0.540       -0.482
+divider_sr.shifted_data_esr[2]     top|sr_clk     SB_DFFESR     Q       shifted_data[2]     0.540       -0.482
+divider_sr.shifted_data_esr[3]     top|sr_clk     SB_DFFESR     Q       shifted_data[3]     0.540       -0.482
+divider_sr.shifted_data_esr[4]     top|sr_clk     SB_DFFESR     Q       shifted_data[4]     0.540       -0.482
+divider_sr.shifted_data_esr[5]     top|sr_clk     SB_DFFESR     Q       shifted_data[5]     0.540       -0.482
+divider_sr.shifted_data_esr[6]     top|sr_clk     SB_DFFESR     Q       shifted_data[6]     0.540       -0.482
+divider_sr.shifted_data_esr[7]     top|sr_clk     SB_DFFESR     Q       shifted_data[7]     0.540       -0.482
+divider_sr.shifted_data_esr[8]     top|sr_clk     SB_DFFESR     Q       shifted_data[8]     0.540       -0.482
+divider_sr.shifted_data_esr[9]     top|sr_clk     SB_DFFESR     Q       shifted_data[9]     0.540       -0.482
+==============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                    Starting                                                 Required           
+Instance                            Reference      Type          Pin     Net                 Time         Slack 
+                                    Clock                                                                       
+----------------------------------------------------------------------------------------------------------------
+divider_sr.shifted_data_esr[1]      top|sr_clk     SB_DFFESR     D       shifted_data[0]     2.626        -0.482
+divider_sr.shifted_data_esr[2]      top|sr_clk     SB_DFFESR     D       shifted_data[1]     2.626        -0.482
+divider_sr.shifted_data_esr[3]      top|sr_clk     SB_DFFESR     D       shifted_data[2]     2.626        -0.482
+divider_sr.shifted_data_esr[4]      top|sr_clk     SB_DFFESR     D       shifted_data[3]     2.626        -0.482
+divider_sr.shifted_data_esr[5]      top|sr_clk     SB_DFFESR     D       shifted_data[4]     2.626        -0.482
+divider_sr.shifted_data_esr[6]      top|sr_clk     SB_DFFESR     D       shifted_data[5]     2.626        -0.482
+divider_sr.shifted_data_esr[7]      top|sr_clk     SB_DFFESR     D       shifted_data[6]     2.626        -0.482
+divider_sr.shifted_data_esr[8]      top|sr_clk     SB_DFFESR     D       shifted_data[7]     2.626        -0.482
+divider_sr.shifted_data_esr[9]      top|sr_clk     SB_DFFESR     D       shifted_data[8]     2.626        -0.482
+divider_sr.shifted_data_esr[10]     top|sr_clk     SB_DFFESR     D       shifted_data[9]     2.626        -0.482
+================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      2.731
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.626
+
+    - Propagation time:                      3.108
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.482
+
+    Number of logic level(s):                0
+    Starting point:                          divider_sr.shifted_data_esr[0] / Q
+    Ending point:                            divider_sr.shifted_data_esr[1] / D
+    The start point is clocked by            top|sr_clk [rising] on pin C
+    The end   point is clocked by            top|sr_clk [rising] on pin C
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                               Type          Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+divider_sr.shifted_data_esr[0]     SB_DFFESR     Q        Out     0.540     0.540       -         
+shifted_data[0]                    Net           -        -       2.568     -           3         
+divider_sr.shifted_data_esr[1]     SB_DFFESR     D        In      -         3.108       -         
+==================================================================================================
+Total path delay (propagation time + setup) of 3.213 is 0.645(20.1%) logic and 2.568(79.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      2.731
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.626
+
+    - Propagation time:                      3.108
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.482
+
+    Number of logic level(s):                0
+    Starting point:                          divider_sr.shifted_data_esr[1] / Q
+    Ending point:                            divider_sr.shifted_data_esr[2] / D
+    The start point is clocked by            top|sr_clk [rising] on pin C
+    The end   point is clocked by            top|sr_clk [rising] on pin C
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                               Type          Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+divider_sr.shifted_data_esr[1]     SB_DFFESR     Q        Out     0.540     0.540       -         
+shifted_data[1]                    Net           -        -       2.568     -           2         
+divider_sr.shifted_data_esr[2]     SB_DFFESR     D        In      -         3.108       -         
+==================================================================================================
+Total path delay (propagation time + setup) of 3.213 is 0.645(20.1%) logic and 2.568(79.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      2.731
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.626
+
+    - Propagation time:                      3.108
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.482
+
+    Number of logic level(s):                0
+    Starting point:                          divider_sr.shifted_data_esr[2] / Q
+    Ending point:                            divider_sr.shifted_data_esr[3] / D
+    The start point is clocked by            top|sr_clk [rising] on pin C
+    The end   point is clocked by            top|sr_clk [rising] on pin C
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                               Type          Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+divider_sr.shifted_data_esr[2]     SB_DFFESR     Q        Out     0.540     0.540       -         
+shifted_data[2]                    Net           -        -       2.568     -           2         
+divider_sr.shifted_data_esr[3]     SB_DFFESR     D        In      -         3.108       -         
+==================================================================================================
+Total path delay (propagation time + setup) of 3.213 is 0.645(20.1%) logic and 2.568(79.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      2.731
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.626
+
+    - Propagation time:                      3.108
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.482
+
+    Number of logic level(s):                0
+    Starting point:                          divider_sr.shifted_data_esr[3] / Q
+    Ending point:                            divider_sr.shifted_data_esr[4] / D
+    The start point is clocked by            top|sr_clk [rising] on pin C
+    The end   point is clocked by            top|sr_clk [rising] on pin C
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                               Type          Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+divider_sr.shifted_data_esr[3]     SB_DFFESR     Q        Out     0.540     0.540       -         
+shifted_data[3]                    Net           -        -       2.568     -           2         
+divider_sr.shifted_data_esr[4]     SB_DFFESR     D        In      -         3.108       -         
+==================================================================================================
+Total path delay (propagation time + setup) of 3.213 is 0.645(20.1%) logic and 2.568(79.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      2.731
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.626
+
+    - Propagation time:                      3.108
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.482
+
+    Number of logic level(s):                0
+    Starting point:                          divider_sr.shifted_data_esr[4] / Q
+    Ending point:                            divider_sr.shifted_data_esr[5] / D
+    The start point is clocked by            top|sr_clk [rising] on pin C
+    The end   point is clocked by            top|sr_clk [rising] on pin C
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                               Type          Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+divider_sr.shifted_data_esr[4]     SB_DFFESR     Q        Out     0.540     0.540       -         
+shifted_data[4]                    Net           -        -       2.568     -           2         
+divider_sr.shifted_data_esr[5]     SB_DFFESR     D        In      -         3.108       -         
+==================================================================================================
+Total path delay (propagation time + setup) of 3.213 is 0.645(20.1%) logic and 2.568(79.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+---------------------------------------
+Resource Usage Report for top 
+
+Mapping to part: ice40hx4kcb132
+Cell usage:
+GND             2 uses
+SB_CARRY        31 uses
+SB_DFF          3 uses
+SB_DFFESR       16 uses
+SB_DFFSR        17 uses
+SB_GB           1 use
+VCC             2 uses
+SB_LUT4         76 uses
+
+I/O ports: 13
+I/O primitives: 10
+SB_GB_IO       2 uses
+SB_IO          8 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   36 (1%)
+Total load per clock:
+   top|laser_pulse: 1
+   top|sr_clk: 1
+
+@S |Mapping Summary:
+Total  LUTs: 76 (2%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 76 = 76 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 27MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jul 03 13:29:30 2023
+
+###########################################################]
+
+
+Synthesis exit by 0.
+Current Implementation DividerFPGA_Implmnt its sbt path: D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt
+Synthesis succeed.
+Synthesis succeeded.
+Synthesis runtime 6 seconds
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\edifparser.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P04.dev" "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt/DividerFPGA.edf " "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\netlist" "-pBG121" -c --devicename iCE40HX4K
+starting edif parserrunning edif parserLattice Semiconductor Corporation  Edif Parser
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:30:22
+
+Parsing edif file: D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt/DividerFPGA.edf...
+start to read sdc/scf file D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt/DividerFPGA.scf
+sdc_reader OK D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt/DividerFPGA.scf
+Stored edif netlist at D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\netlist\oadb-top...
+Warning: The terminal row_completed_obuft:OUTPUTENABLE is driven by default driver : GND, Disconnecting it.
+
+write Timing Constraint to D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt/Temp/sbt_temp.sdc
+
+EDIF Parser succeeded
+Top module is: top
+
+EDF Parser run-time: 0 (sec)
+edif parser succeed.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\sbtplacer.exe" --des-lib "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\netlist\oadb-top" --outdir "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\placer" --device-file "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P04.dev" --package BG121 --deviceMarketName iCE40HX4K --sdc-file "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\Temp/sbt_temp.sdc" --lib-file "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40HX8K.lib" --effort_level std --out-sdc-file "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\placer\top_pl.sdc"
+starting placerrunning placerExecuting : C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbtplacer.exe --des-lib D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\netlist\oadb-top --outdir D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\placer --device-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P04.dev --package BG121 --deviceMarketName iCE40HX4K --sdc-file D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\Temp/sbt_temp.sdc --lib-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40HX8K.lib --effort_level std --out-sdc-file D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\placer\top_pl.sdc
+Lattice Semiconductor Corporation  Placer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:55:52
+
+I2004: Option and Settings Summary
+=============================================================
+Device file          - C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P04.dev
+Package              - BG121
+Design database      - D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\netlist\oadb-top
+SDC file             - D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\Temp/sbt_temp.sdc
+Output directory     - D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\placer
+Timing library       - C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40HX8K.lib
+Effort level         - std
+
+I2050: Starting reading inputs for placer
+=============================================================
+I2100: Reading design library: D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\netlist\oadb-top/BFPGA_DESIGN_ep
+I2065: Reading device file : C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P04.dev
+I2051: Reading of inputs for placer completed successfully
+
+I2053: Starting placement of the design
+=============================================================
+
+Input Design Statistics
+    Number of LUTs      	:	76
+    Number of DFFs      	:	36
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	31
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	8
+    Number of GBIOs     	:	2
+    Number of GBs       	:	1
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+
+
+Phase 1
+I2077: Start design legalization
+
+Design Legalization Statistics
+    Number of feedthru LUTs inserted to legalize input of DFFs     	:	16
+    Number of feedthru LUTs inserted for LUTs driving multiple DFFs	:	0
+    Number of LUTs replicated for LUTs driving multiple DFFs       	:	2
+    Number of feedthru LUTs inserted to legalize output of CARRYs  	:	0
+    Number of feedthru LUTs inserted to legalize global signals    	:	0
+    Number of feedthru CARRYs inserted to legalize input of CARRYs 	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 01xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 10xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 11xxxx  	:	0
+    Total LUTs inserted                                            	:	18
+    Total CARRYs inserted                                          	:	0
+
+
+I2078: Design legalization is completed successfully
+I2088: Phase 1, elapsed time : 0.0 (sec)
+
+
+Phase 2
+I2088: Phase 2, elapsed time : 0.1 (sec)
+
+Phase 3
+
+Design Statistics after Packing
+    Number of LUTs      	:	94
+    Number of DFFs      	:	36
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	31
+
+Device Utilization Summary after Packing
+    Sequential LogicCells
+        LUT and DFF      	:	21
+        LUT, DFF and CARRY	:	15
+    Combinational LogicCells
+        Only LUT         	:	42
+        CARRY Only       	:	0
+        LUT with CARRY   	:	16
+    LogicCells                  :	94/3520
+    PLBs                        :	13/440
+    BRAMs                       :	0/20
+    IOs and GBIOs               :	10/93
+    PLLs                        :	0/2
+
+
+I2088: Phase 3, elapsed time : 0.3 (sec)
+
+Phase 4
+I2088: Phase 4, elapsed time : 0.1 (sec)
+
+Phase 5
+I2088: Phase 5, elapsed time : 0.2 (sec)
+
+Phase 6
+I2088: Phase 6, elapsed time : 10.5 (sec)
+
+Final Design Statistics
+    Number of LUTs      	:	94
+    Number of DFFs      	:	36
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	31
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	8
+    Number of GBIOs     	:	2
+    Number of GBs       	:	1
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+
+Device Utilization Summary
+    LogicCells                  :	94/3520
+    PLBs                        :	18/440
+    BRAMs                       :	0/20
+    IOs and GBIOs               :	10/93
+    PLLs                        :	0/2
+
+
+
+#####################################################################
+Placement Timing Summary
+
+The timing summary is based on estimated routing delays after
+placement. For final timing report, please carry out the timing
+analysis after routing.
+=====================================================================
+
+#####################################################################
+                     Clock Summary 
+=====================================================================
+Number of clocks: 2
+Clock: top|laser_pulse | Frequency: 108.69 MHz | Target: 79.94 MHz
+Clock: top|sr_clk | Frequency: 476.11 MHz | Target: 366.30 MHz
+
+=====================================================================
+                     End of Clock Summary
+#####################################################################
+
+I2054: Placement of design completed successfully
+
+I2076: Placer run-time: 11.9 sec.
+
+placer succeed.
+starting IPExporterrunning IPExporterIPExporter succeed.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\packer.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P04.dev" "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\netlist\oadb-top" --package BG121 --outdir "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\packer" --DRC_only  --translator "C:\lscc\iCEcube2.2020.12\sbt_backend\bin\sdc_translator.tcl" --src_sdc_file "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\placer\top_pl.sdc" --dst_sdc_file "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\packer\top_pk.sdc" --devicename iCE40HX4K
+starting packerrunning packerLattice Semiconductor Corporation  Packer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:32:13
+
+Begin Packing...
+initializing finish
+Total HPWL cost is 169
+used logic cells: 94
+Design Rule Checking Succeeded
+
+DRC Checker run-time: 0 (sec)
+packer succeed.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\packer.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P04.dev" "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\netlist\oadb-top" --package BG121 --outdir "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\packer" --translator "C:\lscc\iCEcube2.2020.12\sbt_backend\bin\sdc_translator.tcl" --src_sdc_file "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\placer\top_pl.sdc" --dst_sdc_file "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\packer\top_pk.sdc" --devicename iCE40HX4K
+starting packerrunning packerLattice Semiconductor Corporation  Packer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:32:13
+
+Begin Packing...
+initializing finish
+Total HPWL cost is 169
+used logic cells: 94
+Translating sdc file D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\placer\top_pl.sdc...
+Translated sdc file is D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\packer\top_pk.sdc
+Packer succeeded
+
+Packer run-time: 0 (sec)
+packer succeed.
+
+
+"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbrouter.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P04.dev" "D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\sbt\netlist\oadb-top" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40HX8K.lib" "D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\sbt\outputs\packer\top_pk.sdc" --outdir "D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\sbt\outputs\router" --sdf_file "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf" --pin_permutation
+starting routerrunning routerSJRouter....
+Executing : C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbrouter.exe C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P04.dev D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\sbt\netlist\oadb-top C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40HX8K.lib D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\sbt\outputs\packer\top_pk.sdc --outdir D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\sbt\outputs\router --sdf_file D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf --pin_permutation 
+Lattice Semiconductor Corporation  Router
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:44:15
+
+I1203: Reading Design top
+Read design time: 1
+I1202: Reading Architecture of device iCE40HX4K
+Read device time: 5
+I1209: Started routing
+I1223: Total Nets : 135 
+I1212: Iteration  1 :    11 unrouted : 0 seconds
+I1212: Iteration  2 :     0 unrouted : 0 seconds
+I1215: Routing is successful
+Routing time: 1
+I1206: Completed routing
+I1204: Writing Design top
+Lib Closed
+I1210: Writing routes
+I1218: Exiting the router
+I1224: Router run-time : 7 seconds
+router succeed.
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\netlister.exe" --verilog "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\simulation_netlist\top_sbt.v" --vhdl "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt/sbt/outputs/simulation_netlist\top_sbt.vhd" --lib "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\netlist\oadb-top" --view rt --device "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P04.dev" --splitio  --in-sdc-file "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\packer\top_pk.sdc" --out-sdc-file "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\netlister\top_sbt.sdc"
+starting netlistrunning netlistLattice Semiconductor Corporation  Verilog & VHDL Netlister
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 18:18:39
+
+Generating Verilog & VHDL netlist files ...
+Writing D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\simulation_netlist\top_sbt.v
+Writing D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt/sbt/outputs/simulation_netlist\top_sbt.vhd
+Netlister succeeded.
+
+Netlister run-time: 2 (sec)
+netlist succeed.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\sbtimer.exe" --des-lib "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\netlist\oadb-top" --lib-file "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40HX8K.lib" --sdc-file "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\netlister\top_sbt.sdc" --sdf-file "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf" --report-file "D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\sbt\outputs\timer\top_timing.rpt" --device-file "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P04.dev" --timing-summary
+starting timerrunning timerExecuting : C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\sbtimer.exe --des-lib D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\netlist\oadb-top --lib-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ice40HX8K.lib --sdc-file D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\netlister\top_sbt.sdc --sdf-file D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\simulation_netlist\top_sbt.sdf --report-file D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\sbt\outputs\timer\top_timing.rpt --device-file C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P04.dev --timing-summary
+Lattice Semiconductor Corporation  Timer
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 17:41:47
+
+Timer run-time: 1 seconds
+timer succeed.
+timer succeeded.
+
+
+"C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt\bitmap.exe" "C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P04.dev" --design "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\netlist\oadb-top" --device_name iCE40HX4K --package BG121 --outdir "D:/Icecube/DividerFPGA/DividerFPGA/DividerFPGA_Implmnt\sbt\outputs\bitmap" --low_power on --init_ram on --init_ram_bank 1111 --frequency low --warm_boot on
+starting bitmaprunning bitmapLattice Semiconductor Corporation  Bit Stream Generator
+Release:        2020.12.27943
+Build Date:     Dec  9 2020 18:17:40
+
+Bit Stream File Size: 1080760 (1M 31K 440 Bits)
+Bit Stream Generator succeeded
+
+Bitmap run-time: 1 (sec)
+bitmap succeed.
+Unrecognizable name top
+10:25:21 PM

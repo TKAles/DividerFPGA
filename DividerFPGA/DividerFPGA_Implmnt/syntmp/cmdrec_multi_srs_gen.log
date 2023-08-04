@@ -1,0 +1,7 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\synwork\DividerFPGA_comp.srs  -osyn  D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\synwork\DividerFPGA_mult.srs  -log  D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\synlog\DividerFPGA_multi_srs_gen.srr 
+rc:0 success:1 runtime:1
+file:D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\synwork\DividerFPGA_comp.srs|io:i|time:1690981765|size:4648|exec:0
+file:D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\synwork\DividerFPGA_mult.srs|io:o|time:1690981767|size:2953|exec:0
+file:D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\synlog\DividerFPGA_multi_srs_gen.srr|io:o|time:1690981767|size:741|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\syn_nfilter.exe|io:i|time:1673531551|size:3128320|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1673531552|size:3947520|exec:1

@@ -1,0 +1,13 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt   -part iCE40HX4K  -package CB132    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\synlog\report\DividerFPGA_premap.xml  -oedif  D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\DividerFPGA.edf  -conchk_prepass  D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\DividerFPGA_cck.rpt   -autoconstraint  -freq 1.000   D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\synwork\DividerFPGA_mult.srs  -flow prepass  -gcc_prepass  -osrd  D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\synwork\DividerFPGA_prem.srd  -qsap  D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\DividerFPGA.sap  -devicelib  C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v  -ologparam  D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\syntmp\DividerFPGA.plg  -osyn  D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\synwork\DividerFPGA_prem.srd  -prjdir  D:\Icecube\DividerFPGA\DividerFPGA\  -prjname  DividerFPGA_syn  -log  D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\synlog\DividerFPGA_premap.srr 
+rc:1 success:1 runtime:1
+file:D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\DividerFPGA.edf|io:o|time:0|size:0|exec:0
+file:D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\DividerFPGA_cck.rpt|io:o|time:1690981767|size:2737|exec:0
+file:D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\synwork\DividerFPGA_mult.srs|io:i|time:1690981767|size:2953|exec:0
+file:D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\synwork\DividerFPGA_prem.srd|io:o|time:1690981767|size:7234|exec:0
+file:D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\DividerFPGA.sap|io:o|time:1690981767|size:806|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v|io:i|time:1673531553|size:224837|exec:0
+file:D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\syntmp\DividerFPGA.plg|io:o|time:1690981767|size:0|exec:0
+file:D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\synwork\DividerFPGA_prem.srd|io:o|time:1690981767|size:7234|exec:0
+file:D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\synlog\DividerFPGA_premap.srr|io:o|time:1690981767|size:4278|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\m_generic.exe|io:i|time:1673531551|size:17853440|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\m_generic.exe|io:i|time:1673531552|size:32355840|exec:1

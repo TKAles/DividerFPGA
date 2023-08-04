@@ -1,0 +1,21 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+2 non-gated/non-generated clock tree(s) driving 36 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+======================================= Non-Gated/Non-Generated Clocks =======================================
+Clock Tree ID     Driving Element            Drive Element Type     Fanout     Sample Instance                
+--------------------------------------------------------------------------------------------------------------
+@K:CKID0001       laser_pulse_ibuf_gb_io     SB_GB_IO               20         reset_signal_iso               
+@K:CKID0002       sr_clk_ibuf_gb_io          SB_GB_IO               16         divider_sr.shifted_data_esr[15]
+==============================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

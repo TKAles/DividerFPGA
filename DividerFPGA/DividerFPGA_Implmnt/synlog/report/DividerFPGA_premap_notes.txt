@@ -1,0 +1,5 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO111 :"d:\icecube\dividerfpga\top.v":17:11:17:23|Tristate driver row_completed (in view: work.top(verilog)) on net row_completed (in view: work.top(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\icecube\dividerfpga\top.v":17:11:17:23|Tristate driver row_completed (in view: work.top(verilog)) on net row_completed (in view: work.top(verilog)) has its enable tied to GND.
+@N: BN225 |Writing default property annotation file D:\Icecube\DividerFPGA\DividerFPGA\DividerFPGA_Implmnt\DividerFPGA.sap.

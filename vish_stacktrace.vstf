@@ -1,0 +1,18 @@
+# Current time Thu Aug 03 13:53:08 2023
+# ModelSim - Lattice FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.3"
+# Version = "2020.10"
+# Date = "Oct 14 2020"
+# Platform = win32loem
+
+Exception c0000005 has occurred at address 00684f22. Traceback:
+# 0    0x00684f22: 'WinMain + 0x12a382'
+# 1    0x0056db71: 'WinMain + 0x12fd1'
+# 2    0x005b615b: 'WinMain + 0x5b5bb'
+# 3    0x00580e8d: 'WinMain + 0x262ed'
+# 4    0x005775b1: 'WinMain + 0x1ca11'
+# 5    0x565a39f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+

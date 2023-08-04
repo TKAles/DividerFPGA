@@ -1,0 +1,12 @@
+INPUT  sr_sel_row 	 location (0, 6, 1) 	 H1 	 SB_LVCMOS
+INPUT  sr_sel_div 	 location (0, 2, 0) 	 J2 	 SB_LVCMOS
+INPUT  sr_clk 	 location (0, 10, 1) 	 G1 	 SB_LVCMOS
+OUTPUT row_completed 	 location (0, 20, 0) 	 B2 	 SB_LVCMOS
+INPUT  en_internals 	 location (0, 13, 0) 	 E3 	 SB_LVCMOS
+INPUT  divide_enable 	 location (0, 18, 0) 	 C3 	 SB_LVCMOS
+INPUT  sr_reset 	 location (0, 7, 1) 	 G3 	 SB_LVCMOS
+INPUT  laser_pulse 	 location (0, 11, 0) 	 F3 	 SB_LVCMOS
+INPUT  sr_data 	 location (0, 4, 0) 	 K1 	 SB_LVCMOS
+INPUT  en_rowpack 	 location (0, 17, 0) 	 C1 	 SB_LVCMOS
+OUTPUT divided_pulse 	 location (0, 10, 0) 	 G2 	 SB_LVCMOS
+INPUT  constant_v 	 location (0, 15, 1) 	 E1 	 SB_LVCMOS

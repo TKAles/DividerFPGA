@@ -1,0 +1,63 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v" (library work)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\Icecube\DividerFPGA\top.v" (library work)
+@I::"D:\Icecube\DividerFPGA\counter16.v" (library work)
+@I::"D:\Icecube\DividerFPGA\sr16.v" (library work)
+Verilog syntax check successful!
+File D:\Icecube\DividerFPGA\top.v changed - recompiling
+Selecting top level module top
+@N: CG364 :"D:\Icecube\DividerFPGA\sr16.v":3:7:3:10|Synthesizing module sr16 in library work.
+
+@N: CG364 :"D:\Icecube\DividerFPGA\counter16.v":3:7:3:15|Synthesizing module counter16 in library work.
+
+@N: CG364 :"D:\Icecube\DividerFPGA\top.v":1:7:1:9|Synthesizing module top in library work.
+
+@W: CG360 :"D:\Icecube\DividerFPGA\top.v":17:11:17:23|Removing wire row_completed, as there is no assignment to it.
+@W: CL168 :"D:\Icecube\DividerFPGA\top.v":49:10:49:20|Removing instance row_counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"D:\Icecube\DividerFPGA\top.v":39:5:39:10|Removing instance row_sr because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL157 :"D:\Icecube\DividerFPGA\top.v":17:11:17:23|*Output row_completed has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL159 :"D:\Icecube\DividerFPGA\top.v":10:10:10:19|Input sr_sel_row is unused.
+@N: CL159 :"D:\Icecube\DividerFPGA\top.v":12:10:12:19|Input en_rowpack is unused.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Aug 02 08:09:25 2023
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"D:\Icecube\DividerFPGA\top.v":1:7:1:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"D:\Icecube\DividerFPGA\top.v":1:7:1:9|Selected library: work cell: top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Aug 02 08:09:25 2023
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Aug 02 08:09:25 2023
+
+###########################################################]

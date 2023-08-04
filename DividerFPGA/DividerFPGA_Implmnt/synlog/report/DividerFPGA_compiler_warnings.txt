@@ -1,0 +1,5 @@
+@W: CG360 :"D:\Icecube\DividerFPGA\top.v":17:11:17:23|Removing wire row_completed, as there is no assignment to it.
+@W: CL168 :"D:\Icecube\DividerFPGA\top.v":49:10:49:20|Removing instance row_counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"D:\Icecube\DividerFPGA\top.v":39:5:39:10|Removing instance row_sr because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL157 :"D:\Icecube\DividerFPGA\top.v":17:11:17:23|*Output row_completed has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+

@@ -1,0 +1,2 @@
+@E: CS179 :"D:\Icecube\DividerFPGA\top.v":65:7:65:20|Assignment target velocity_state must be a net type
+

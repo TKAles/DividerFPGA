@@ -1,0 +1,17 @@
+@P:  Worst Slack : -2.207
+@P:  top|laser_pulse - Estimated Frequency : 68.0 MHz
+@P:  top|laser_pulse - Requested Frequency : 80.0 MHz
+@P:  top|laser_pulse - Estimated Period : 14.714
+@P:  top|laser_pulse - Requested Period : 12.507
+@P:  top|laser_pulse - Slack : -2.207
+@P:  top|sr_clk - Estimated Frequency : 311.2 MHz
+@P:  top|sr_clk - Requested Frequency : 366.1 MHz
+@P:  top|sr_clk - Estimated Period : 3.213
+@P:  top|sr_clk - Requested Period : 2.731
+@P:  top|sr_clk - Slack : -0.482
+@P: top Part : ice40hx4kcb132
+@P: top I/O primitives : 10
+@P: top I/O Register bits : 0
+@P: top Register bits (Non I/O) : 36 (1%)
+@P: top Total Luts : 76 (2%)
+@P:  CPU Time : 0h:00m:00s
