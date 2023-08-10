@@ -8,13 +8,14 @@ module divider(
     input sr_div_data_enable,
     input sr_div_data_reset,
     // Row packing feature
-    input rowpack_enable,
-    input sr_row_data_enable,
-    input sr_row_data_reset,
-    input row_max_velocity,
-    input row_starting,
-    input reset_row,
-    output row_complete,
+    input rowpack_enable,       // Enable feature signal
+    input sr_row_data_enable,   // Shift Register: Enable Transfer
+    input sr_row_data_reset,    // Shift Register: Reset/Clear
+    input row_max_velocity,     // Max V Signal from ThorLABS stage
+    input row_starting,         // Signal from Control Software to indicate
+                                // That it is ready to begin counting pts
+    input reset_row,            // Signal from ControlSoft to reset pts 
+    output row_complete,        // Signal to ControlSoft that row is done
     output divided_clock
 );
 
@@ -62,7 +63,7 @@ sr32 rowpoints_sr(.serdata(sr_data), .serdata_clock(sr_data_clock),
 // force the oscillscope to write out the file to disk.
 counter32 rowpoints_counter(.count_in(rowpack_enabled_pulse),
                             .count_enable(rowpack_count_enable),
-                            .count_reset(combined_reset_signal),
+                            .count_reset(reset_row),
                             .count_target(comp_row_target),
                             .count_completed(rowpack_row_completed));
 
@@ -77,8 +78,13 @@ always @(posedge pulse_clock) begin
         internal_divided_signal <= ~internal_divided_signal;
         internal_reset <= 1;
     end
+    // If the row-packing feature is not enabled, pass the divided
+    // signal out as the output signal.
     if(rowpack_enable == 0) begin
         output_signal <= internal_divided_signal;
+    end
+    if(rowpack_enable == 1) begin
+        output_signal <= rowpack_enabled_pulse;
     end
 
 end
@@ -97,8 +103,11 @@ assign comp_divider_target = divider_target - divide_delay;
 // Divided output clock
 assign divided_clock = output_signal; 
 // Only pass through a signal to the row point counter if the 
-// feature enable signal is active.
-assign rowpack_enabled_pulse = rowpack_enable && internal_divided_signal;
+// feature enable signal is active and the row complete signal
+// isn't set high.
+assign rowpack_enabled_pulse = (rowpack_enable && 
+                                internal_divided_signal) && 
+                                !rowpack_row_completed;
 // Only enable counter when feature is active and the counter
 // target shift register isn't being communicated with
 assign rowpack_count_enable = rowpack_enable && !sr_row_data_enable;
