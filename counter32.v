@@ -11,7 +11,7 @@ module counter32(
 reg [31:0] internal_count = 0;
 reg internal_count_reached = 0;
 // Count in signal logic
-always @(posedge count_in) begin
+always @(posedge count_in or posedge count_reset) begin
     
     if((count_enable == 1) && (internal_count_reached == 0)) begin
         internal_count <= internal_count + 1;
